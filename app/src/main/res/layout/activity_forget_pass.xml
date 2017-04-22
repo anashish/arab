@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context="com.mishwar.commun_ui.ForgetPassActivity">
+
+    <include
+        android:id="@+id/driverCurrentRideToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/actionbar_layout_allscreen_driver"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/bg_ly_tripletter_border">
+
+        <!-- <TextView
+             android:id="@+id/tvHeaderForgetPass"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/_35sdp"
+             android:text="Forget Password"
+             android:textStyle="bold"
+             android:textColor="@color/white"
+             android:gravity="center"
+             android:textSize="@dimen/_16sdp"
+             android:layout_centerHorizontal="true"
+             android:background="@drawable/bg_ly_tripletter_heder"
+             />-->
+
+        <EditText
+            android:id="@+id/etForgetPass"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_35sdp"
+            android:hint="@string/enter_email"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textSize="@dimen/_16sdp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_dialog_box"
+            android:maxLines="1"
+            android:ems="12"
+            />
+
+        <Button
+            android:id="@+id/btn_submit_forgetpass"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/bg_ly_green_btn"
+            android:text="@string/submit"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/_2sdp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

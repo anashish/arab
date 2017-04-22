@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_ly_round_corner_border"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_6sdp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_monthly_bookingid"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+
+                />
+            <TextView
+                android:id="@+id/itemUserBookingId"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="10"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_trip_type"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+            <TextView
+                android:id="@+id/itemUserTripType"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="now"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_driver_name"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+            <TextView
+                android:id="@+id/itemUserName"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="name"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_monthly_from"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+
+            <TextView
+                android:id="@+id/itemUserPickup"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:hint="pickup"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+                android:maxLines="2"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_monthly_to"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+            <TextView
+                android:id="@+id/itemUserDestination"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:hint="destination"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+                android:maxLines="2"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_monthly_time"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+            <TextView
+                android:id="@+id/itemAllTripTime"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="time"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_pass_trip_date"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+            <TextView
+                android:id="@+id/itemAllTripDate"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="date"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_monthly_distance"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+            <TextView
+                android:id="@+id/itemCanceledTripDistance"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="distance"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_monthly_cost"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+            <TextView
+                android:id="@+id/itemCanceledTripCost"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="cost"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_monthly_contact"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+            <TextView
+                android:id="@+id/itemUserMobileNo"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="mobile no"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_1sdp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_payment_status"
+                android:textColorHint="@color/orange"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="start"
+                />
+            <TextView
+                android:id="@+id/itemUserPaymentStatus"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="pending"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:textColorHint="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

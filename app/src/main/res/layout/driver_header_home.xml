@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="@dimen/_180sdp">
+
+    <ImageView
+        android:id="@+id/ivDriverProfileImage"
+        android:layout_width="@dimen/_72sdp"
+        android:layout_height="@dimen/_72sdp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/person"/>
+
+    <TextView
+        android:id="@+id/tvDriverName"
+        android:layout_below="@+id/ivDriverProfileImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_centerHorizontal="true"
+        android:hint="User Name"/>
+
+
+   <!-- <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tvDriverName"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/_1sdp"
+        android:layout_height="@dimen/_30sdp">
+
+        <ImageView
+            android:id="@+id/btnDriverOnlineStatus"
+            android:layout_width="@dimen/_56sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/online_btn_active">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/btnDriverOfLineStatus"
+            android:layout_width="@dimen/_56sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/offline_btn_inactive"
+            android:textAllCaps="false"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@+id/btnDriverOnlineStatus"
+            >
+        </ImageView>
+
+    </RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tvDriverName"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="@dimen/_2sdp"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+            android:id="@+id/btnDriverOnlineStatus"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="@string/text_active"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/online_btn_active_new"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/btnDriverOfLineStatus"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/text_inactive"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/offline_btn_inactive_new"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_nav_forward"
+        android:layout_width="@dimen/_26sdp"
+        android:layout_height="@dimen/_26sdp"
+        android:background="@drawable/rightarrow"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:padding="@dimen/_4sdp"
+        />
+
+</RelativeLayout>

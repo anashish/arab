@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="center"
+    android:padding="@dimen/_5sdp"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_riciept"
+        >
+
+        <RelativeLayout
+            android:id="@+id/lyBookinSummury"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/tvBookinSummury"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:text="@string/text_booking_summry"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_ly_payriciept_btn"
+                />
+
+            <RelativeLayout
+                android:layout_below="@+id/tvBookinSummury"
+                android:id="@+id/lyBookingNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/_5sdp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/lyBookingId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:weightSum="2"
+                    android:layout_centerHorizontal="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/text_your_booking_id"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvBookingNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="10"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/lyBookingId"
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/_10sdp">
+                </View>
+
+                <LinearLayout
+                    android:id="@+id/lyBookingPaymentType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_below="@+id/view1"
+                    android:weightSum="2"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/text_payment_type"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tvPaymentType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10 min"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_gravity="end"
+                        android:textSize="@dimen/_14sdp" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/view6"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/lyBookingPaymentType"
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/_10sdp">
+                </View>
+
+                <LinearLayout
+                    android:id="@+id/lyBookingDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_below="@+id/view6"
+                    >
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/planner"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/lyBookingStartDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:weightSum="2"
+                        android:layout_centerHorizontal="true"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/text_pass_trip_date"
+                            android:textColorHint="@color/white"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14sdp"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            />
+
+                        <TextView
+                            android:id="@+id/tvBookingStartDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="26/11/2016"
+                            android:textColorHint="@color/white"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14sdp"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/lyBookingDate"
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/_10sdp">
+                </View>
+
+
+                <LinearLayout
+                    android:layout_below="@+id/view2"
+                    android:id="@+id/lyBookingAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:weightSum="2"
+                    android:gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    >
+                    <TextView
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/text_monthly_from"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="left"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvBookingPickupAddress"
+                        android:layout_width="@dimen/_160sdp"
+                        android:layout_height="wrap_content"
+                        android:hint="from"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:layout_weight="1"
+                        android:layout_gravity="end"
+                        android:maxLines="2"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_below="@+id/lyBookingAddress"
+                    android:id="@+id/lyBookingDestiAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:weightSum="2"
+                    android:layout_centerHorizontal="true"
+                    >
+                    <TextView
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/text_monthly_to"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:layout_gravity="start"
+                        android:gravity="center"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvBookingDestinationAddress"
+                        android:layout_width="@dimen/_160sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_gravity="end"
+                        android:maxLines="2"
+                        />
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/lyBookingDestiAddress"
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/_10sdp">
+                </View>
+
+                <LinearLayout
+                    android:id="@+id/lyBookingTotalDistance"
+                    android:layout_below="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:weightSum="2"
+                    >
+
+                    <TextView
+                        android:id="@+id/tvBookingTotalDistance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/text_total_dist_in_km"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:layout_weight="1"
+                        />
+
+                    <RelativeLayout
+                        android:id="@+id/lyAddDistance"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_ly_btn"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:id="@+id/tvEditableDistance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="90"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14sdp"
+                            android:layout_centerInParent="true"/>
+
+                        <ImageView
+                            android:padding="@dimen/_4sdp"
+                            android:id="@+id/ivEditDistancePlus"
+                            android:layout_width="@dimen/_22sdp"
+                            android:layout_height="@dimen/_22sdp"
+                            android:src="@drawable/plus"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"/>
+
+                        <ImageView
+                            android:padding="@dimen/_4sdp"
+                            android:id="@+id/ivEditDistanceMinus"
+                            android:layout_width="@dimen/_22sdp"
+                            android:layout_height="@dimen/_22sdp"
+                            android:src="@drawable/minus"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/lyBookingTotalDistance"
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/_10sdp">
+                </View>
+
+                <LinearLayout
+                    android:id="@+id/lyBookingTotalTime"
+                    android:layout_below="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:weightSum="2"
+                    >
+
+                    <TextView
+                        android:id="@+id/tvBookingTotalTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/text_total_time_in_min"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:layout_weight="1"
+                        />
+                    <RelativeLayout
+                        android:id="@+id/lyAddTime"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_ly_btn"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:id="@+id/tvEditableTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14sdp"
+                            android:layout_centerInParent="true"/>
+
+                        <ImageView
+                            android:padding="@dimen/_4sdp"
+                            android:id="@+id/ivEditTimePlus"
+                            android:layout_width="@dimen/_22sdp"
+                            android:layout_height="@dimen/_22sdp"
+                            android:src="@drawable/plus"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"/>
+
+                        <ImageView
+                            android:padding="@dimen/_4sdp"
+                            android:id="@+id/ivEditTimeMinus"
+                            android:layout_width="@dimen/_22sdp"
+                            android:layout_height="@dimen/_22sdp"
+                            android:src="@drawable/minus"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+                    />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/lyBookingTotalTime"
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/_10sdp">
+                </View>
+
+
+                <LinearLayout
+                    android:id="@+id/lyBookingTotalPrice"
+                    android:layout_below="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:weightSum="2"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_your_total_payment"
+                        android:textColorHint="@color/orange"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/_16sdp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvBookingTotalPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="90"
+                        android:textColorHint="@color/white"
+                        android:gravity="start"
+                        android:textColor="@color/orange"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/_16sdp"
+                        />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_below="@+id/lyBookingNo"
+                android:id="@+id/btnSendReciept"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:text="@string/btn_send"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_ly_payriciept_btn"
+                />
+
+            <View
+                android:layout_below="@+id/btnSendReciept"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

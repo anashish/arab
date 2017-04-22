@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    >
+    <include
+        android:id="@+id/tripMonthly_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/actionbar_layout_tripmonthly"/>
+
+    <ScrollView
+        android:layout_below="@+id/tripMonthly_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="@dimen/_4sdp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tripmonthly_text_cust_type"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/lyTmCustType"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_trip_monthly"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                >
+
+                <Spinner
+                    android:id="@+id/tvTmCustType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@null"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/_1sdp"/>
+
+                <ImageView
+                    android:id="@+id/iv_custType_tripMonthly"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/icon_drop_down"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tripmonthly_text_source_place"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/lyTmSource"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_trip_monthly"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <Spinner
+                    android:id="@+id/tvTmSource"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:background="@null"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:paddingRight="@dimen/_30sdp"
+                    android:paddingLeft="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:gravity="center"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbars="horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    />
+
+                <ImageView
+                    android:id="@+id/ivTmSource"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/icon_drop_down"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_comeTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tripmonthly_text_desti_place"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_16sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+
+            <RelativeLayout
+                android:id="@+id/lyTmDestination"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_trip_monthly"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <Spinner
+                    android:id="@+id/tvTmDestination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textAlignment="center"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:paddingRight="@dimen/_30sdp"
+                    android:paddingLeft="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:paddingTop="@dimen/_2sdp"                    />
+
+                <ImageView
+                    android:id="@+id/iv_timePrDay_tripMonthly"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/icon_drop_down"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_goTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tripmonthly_text_date"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_16sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/lyTmStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_trip_monthly"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tvTmStartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_alignParentLeft="true"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:singleLine="true"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_goTime_tripMonthly"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_calendar"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tripmonthly_text_timmer_time"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_16sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/lyTmPickupTime"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_trip_monthly"
+                android:layout_marginTop="@dimen/_5sdp"
+                >
+
+                <TextView
+                    android:id="@+id/tvTmPickupTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_alignParentLeft="true"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    />
+
+                <ImageView
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_clock"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lyTmPrice"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/tvView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tripmonthly_text_price"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_16sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvTmPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_16sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_toRightOf="@+id/tvView"
+                    android:visibility="visible"
+
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvTmVehicleType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle type"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_16sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:visibility="gone"
+
+                />
+            <Button
+                android:id="@+id/btn_next_tripMonthly"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_below="@+id/ly_notes"
+                android:text="@string/submit"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_ly_green_btn"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

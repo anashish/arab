@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transperant"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_box"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        >
+
+        <TextView
+            android:id="@+id/ReqHeader"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:text="New Request"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/_16sdp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_ly_tripletter_heder"
+            />
+
+        <RelativeLayout
+            android:layout_below="@+id/ReqHeader"
+            android:layout_marginLeft="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:id="@+id/custom_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/passengerName"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/blurBlack"
+                android:layout_alignParentLeft="true"
+                android:text="Passenger Name"
+                android:minLines="1"
+                android:layout_toLeftOf="@+id/custom_auto" />
+
+            <TextView
+                android:layout_below="@+id/passengerName"
+                android:id="@+id/passengerPickUpAdddress"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:textColor="@color/blurBlack"
+                android:textStyle="italic"
+                android:layout_alignParentLeft="true"
+                android:text="Pickup"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_toLeftOf="@+id/custom_auto" />
+
+            <TextView
+                android:id="@+id/passengerDestinationAdddress"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:textSize="@dimen/_12sdp"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/blurBlack"
+                android:textStyle="italic"
+                android:text="destination"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_below="@+id/passengerPickUpAdddress"
+                />
+
+            <ImageView android:id="@+id/custom_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/car_icon"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/bookedTripTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_relative"
+            android:text="time"
+            android:textColor="@color/blurBlack"
+            android:textStyle="italic"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_12sdp"/>
+        <TextView
+            android:id="@+id/bookedTripDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookedTripTime"
+            android:text="Date"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/blurBlack"
+            android:textStyle="italic"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/passMobileNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookedTripDate"
+            android:text="Mobile no."
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/blurBlack"
+            android:textStyle="italic"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_12sdp" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_below="@+id/passMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="1dp"
+            >
+
+            <Button android:id="@+id/accept_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_42sdp"
+                android:layout_weight="1"
+                android:text="Accept"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                />
+            <Button android:id="@+id/cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_42sdp"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

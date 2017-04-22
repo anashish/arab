@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/layout_vehicletype">
+
+
+    <include layout="@layout/horizontal_listview_vehicletype"
+        android:id="@+id/vehicletype_options_list_view"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/vehicleType_list_layout" />
+
+    <include layout="@layout/item_trip_now"
+        android:id="@+id/tripNow_RideOptions"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_above="@+id/vehicleType_list_layout" />
+
+    <include layout="@layout/item_confirm_booking"
+        android:id="@+id/layout_confirm"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_above="@+id/vehicleType_list_layout" />
+
+    <include layout="@layout/cartype_details"
+        android:id="@+id/layout_carTypeDetail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_centerInParent="true"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/vehicleType_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_86sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/mid_nav_bar"
+        android:gravity="bottom">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/_8sdp"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout_tripLetter_iv_options"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_70sdp"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/home_iv_vehicletype"
+                    android:layout_width="@dimen/_48sdp"
+                    android:layout_height="@dimen/_48sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:src="@drawable/vehicle" />
+
+                <TextView
+                    android:id="@+id/home_tv_vehichle_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_vehicle_type"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:singleLine="true"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_tripNow_iv_options"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_70sdp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/ivPaymentType"
+                    android:layout_width="@dimen/_48sdp"
+                    android:layout_height="@dimen/_48sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/holo_green_light"
+                    android:background="@null"
+                    android:src="@drawable/payment_type" />
+
+                <TextView
+                    android:id="@+id/tvPaymentType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_payment_type"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_tripMonthly_iv_options"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_70sdp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+
+                >
+                <ImageView
+                    android:id="@+id/home_b_confirmbooking"
+                    android:layout_width="@dimen/_48sdp"
+                    android:layout_height="@dimen/_48sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:src="@drawable/icon_conform_booking" />
+                <TextView
+                    android:id="@+id/home_tv_confrmBooking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_confirm_booking"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

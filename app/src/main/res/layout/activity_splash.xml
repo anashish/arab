@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
+    tools:context=".commun_ui.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/splash_iv_logo"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/moving_car"/>
+
+    <ImageView
+        android:id="@+id/splash_iv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_85sdp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/lower_image"/>
+
+
+</RelativeLayout>

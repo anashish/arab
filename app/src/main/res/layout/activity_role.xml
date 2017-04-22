@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg_splash">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_40sdp">
+
+    <ImageView
+        android:layout_width="@dimen/_210sdp"
+        android:layout_height="@dimen/_85sdp"
+        android:id="@+id/role_iv_logo"
+        android:layout_above="@+id/role_tv_select"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/moving_car"/>
+
+    <TextView
+        android:id="@+id/role_tv_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/role_center_line"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/select_your_role"
+        android:textStyle="bold"
+        android:singleLine="true"/>
+
+    <View
+        android:id="@+id/role_center_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"/>
+
+    <ImageView
+        android:id="@+id/role_iv_driver"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_below="@+id/role_center_line"
+        android:layout_alignLeft="@+id/role_center_line"
+        android:layout_alignStart="@+id/role_center_line"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/bg_textview_circle"
+        android:padding="@dimen/_15sdp"
+        android:src="@drawable/icon_driver"/>
+
+    <ImageView
+        android:id="@+id/role_iv_passanger"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_alignBottom="@+id/role_iv_driver"
+        android:layout_alignRight="@+id/role_center_line"
+        android:layout_alignEnd="@+id/role_center_line"
+        android:background="@drawable/bg_textview_circle"
+        android:padding="@dimen/_15sdp"
+        android:src="@drawable/icon_passenger"/>
+
+    <TextView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/driver"
+        android:id="@+id/role_tv_driver"
+        android:layout_below="@+id/role_iv_driver"
+        android:layout_alignLeft="@+id/role_center_line"
+        android:layout_alignStart="@+id/role_center_line"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/passenger"
+        android:id="@+id/role_tv_passanger"
+        android:layout_below="@+id/role_iv_driver"
+        android:layout_alignRight="@+id/role_center_line"
+        android:layout_alignEnd="@+id/role_center_line"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:singleLine="true"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/login_iv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_85sdp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/lower_image"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,495 @@
+<resources>
+    <string name="app_name">مشوار العاصمة</string>
+    <string name="facebook_app_id">1213714542022009</string>
+    <!--<string name="google_api_key">AIzaSyA4t7Q2xXGs2-RvgkOdEsBD6YUMsY708GQ</string>-->
+    <string name="title_activity_role">RoleActivity</string>
+    <string name="title_activity_verify_phone">Verify Your Phone Number</string>
+    <string name="select_your_role">Select your role</string>
+    <string name="driver">Driver</string>
+    <string name="passenger">Passenger</string>
+    <string name="taxi_app_will_send_a_one_time_sms_message_to_verify_your_phone_number_carrier_sms_charges_may_apply">Mishwar alasimah app will send a one time SMS to verify your phone number. Carrier SMS charges may apply.</string>
+    <string name="please_confirm_your_country_code_and_enter_your_phone_number">Please confirm your country code and enter your phone number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="ok">OK</string>
+
+    <string name="please_enter_verification_code">Please enter verification code</string>
+    <string name="next">Next</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_old_pass">Enter old password</string>
+    <string name="enter_new_pass">Enter new password</string>
+    <string name="enter_password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="submit">Submit</string>
+    <string name="text_done">Done</string>
+    <string name="or">OR</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="please_enter_mobile_number">Please enter mobile number</string>
+    <string name="please_enter_otp">Please enter OTP</string>
+    <string name="otp_sent">OTP sent,Please check your inbox</string>
+    <string name="please_enter_your_password">Please enter your password</string>
+    <string name="please_enter_your_email">Please enter your email</string>
+    <string name="please_enter_a_valid_email">Please enter a valid email</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="vehicleno">Vehicle Number</string>
+    <string name="licence_no_registration_no">Licence Number/Reg Number</string>
+    <string name="licence_expiry_date">Licence Expiry Date</string>
+    <string name="attach_identity">Attach Vehicle Identity</string>
+    <string name="by_submitting_this_form_i_agree_to_taxi_app_terms_contditions_i_hereby_confirm_that_the_information_provided_is_accurate_complete_up_to_date"><![CDATA[By submitting this form, I agree to Mishwar app Terms & Contditions. I hereby confirm that the information provided is accurate, complete & up-to-date.]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="submit_paypal_id_text">Enter your paypal id here</string>
+    <string name="add_paypal_id_text">Add paypal Account</string>
+    <string name="date_hint">YYYY/MM/DD</string>
+    <string name="total_earning_text">Total Earning :</string>
+    <string name="text_cash">Cash </string>
+    <string name="text_paypal">Paypal </string>
+    <string name="text_take_photo">Take Photo </string>
+    <string name="text_chose_gellery">Choose from gallery</string>
+    <string name="text_add_photo">Add Photo</string>
+    <string name="text_attached">Attached</string>
+    <string name="text_add_paypalid">This driver did not add their paypal id please pay with another way</string>
+
+    <string name="network_not_available">Network not available. Please check network connection.</string>
+    <string name="progress_loading_title">Loading</string>
+    <string name="progress_loading_msg">Please wait</string>
+    <string name="progress_target_date">Please select target date.</string>
+
+    <!-- home-->
+    <string name="text_home">Home</string>
+    <string name="text_source_address">Source address</string>
+    <string name="text_my_profile">My Profile</string>
+    <string name="text_vehicle_info">Vehicle Info</string>
+    <string name="text_my_booking">My Booking</string>
+    <string name="text_pending_req">Pending Requests</string>
+    <string name="text_forgot_pass">Forgot Password</string>
+    <string name="text_call_support">Call Support</string>
+    <string name="text_payment_info">Payment Info</string>
+    <string name="text_setting_menu">Setting</string>
+    <string name="text_bout_us">About Us</string>
+    <string name="text_logout">Logout</string>
+    <string name="text_notification">Notification</string>
+    <string name="text_make_my_trip">Make My Trip</string>
+    <string name="text_add_address">Add Address</string>
+
+    <string name="text_pickup">Pickup Address </string>
+    <string name="text_destination">Destination Address </string>
+    <string name="text_trip_now">Trip Now</string>
+    <string name="text_trip_later">Trip Later </string>
+    <string name="text_trip_monthly">Trip Monthly </string>
+    <string name="text_payment_type">Payment type </string>
+    <string name="text_vehicle_type">Vehicle Type </string>
+    <string name="text_confirm_booking">Confirm Booking </string>
+    <string name="text_waiting_timmer">Waiting for Driver Response </string>
+    <string name="text_booking_summry">Booking Summary </string>
+    <string name="text_upcoming_booking">Upcoming Booking </string>
+    <string name="text_your_booking_id">Your booking id </string>
+    <string name="text_your_total_payment">Your total payment is  $</string>
+    <string name="text_pay_cash">Pay </string>
+    <string name="text_total_dist_in_km">Total distance in km </string>
+    <string name="text_total_time_in_min">Total time in min </string>
+    <string name="btn_send">Send</string>
+
+    <string name="text_select_max_pass"> You can select maximum </string>
+    <string name="text_select_max_pass_for_car"> passenger at a time for this car ! </string>
+    <string name="text_select_pass_msg"> Select at least 1 passenger ! </string>
+    <string name="text_car_rate_by_dist"> Car rate by distance </string>
+    <string name="text_car_rate_by_time"> Car rate by time </string>
+    <string name="text_opening_counter"> Opening counter price </string>
+    <string name="text_total_esti_price"> Total estimated Price </string>
+    <string name="text_esti_distance"> Estimated travel distance </string>
+    <string name="text_esti_time"> Estimated time duration </string>
+    <string name="text_add_passenger_count"> Add Passenger Count </string>
+    <string name="text_btn_ok"> Ok </string>
+    <string name="text_btn_yes"> Yes </string>
+    <string name="text_btn_no"> No </string>
+    <string name="text_select_another_car_type"> Select another car type </string>
+    <string name="text_select_another_trip"> Create another trip </string>
+    <string name="text_no_driver_found"> No driver found for this car type </string>
+    <string name="text_doyou_want_create_new_trip"> Do you want to create new trip ? </string>
+    <string name="text_select_payment_type"> Select payment type!</string>
+    <string name="text_select_time">please select time</string>
+    <string name="text_submit_req"> Submit Request </string>
+    <string name="text_driver_info"> Driver Info </string>
+    <string name="text_driver_name"> Name </string>
+    <string name="text_driver_car_type"> Car Type </string>
+    <string name="text_driver_car_facility"> Car Facility </string>
+    <string name="text_driver_rating"> Rating </string>
+    <string name="text_driver_review"> Enter your Review </string>
+
+    <string name="text_req_has_rejected"> Your Request has been rejected ! please make a new ride for another driver ! </string>
+    <string name="text_req_has_accepted"> Your request has been accepted </string>
+    <string name="text_select_destination"> Please Select destination address </string>
+    <string name="text_select_pickup"> Please Select pickup address </string>
+    <string name="text_now_select__driver"> Now you can select a driver </string>
+    <string name="text_already_have_tm_trip"> you have already created mothly trip,so you can not create another monthly trip </string>
+
+
+    <string name="text_ride_has_started"> Your trip has been started </string>
+    <string name="text_ride_has_ended"> Your trip has been ended </string>
+    <string name="text_ride_has_cancel"> Your trip has been canceled </string>
+    <string name="text_u_r_ontheway"> Now you are on the way </string>
+
+    <string name="text_active"> Online </string>
+    <string name="text_inactive"> Offline </string>
+
+    <string name="text_already_create_ride"> You have already created ride for this date. </string>
+
+
+
+    <!-- profile-->
+    <string name="text_user_name">User Name</string>
+    <string name="text_full_name">Full Name</string>
+    <string name="text_user_email">User Email</string>
+    <string name="text_vehicle_id_proof">Vehicle identity proof</string>
+    <string name="text_btn_update">Update</string>
+    <string name="text_changepass">Change password</string>
+    <string name="text_add_contact">Add emergency contact</string>
+
+    <!--vehicle info-->
+    <string name="text_vehicle_feature">Vehicle Features</string>
+
+    <!--my booking-->
+    <string name="text_current">CURRENT</string>
+    <string name="text_previous">PREVIOUS</string>
+    <string name="text_upcoming">UPCOMING</string>
+    <string name="text_cancelled">CANCELED</string>
+    <string name="text_trip_info">Trip info</string>
+    <string name="text_call">Call</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="btn_text_ontheway">On the way</string>
+    <string name="btn_text_start">Start Trip</string>
+    <string name="btn_text_cancel_trip">Cancel Trip</string>
+    <string name="btn_text_end_trip">End Trip</string>
+    <string name="btn_no_booking_available">No booking available till now.</string>
+    <string name="btn_ride_type">Ride type</string>
+    <string name="btn_ride_status">Ride Status</string>
+    <string name="text_ride_date_time">Date and Time </string>
+    <string name="text_alert_sure">Do you want to end this ride ?</string>
+    <string name="text_currently_no_ride">Currently you Have no ride</string>
+    <string name="text_alert_sure_ontheway">Are you sure, you are on the way ?</string>
+    <string name="text_alert_sure_start_ride">Do you want to start this ride ?</string>
+    <string name="text_alert_sure_cancel_ride">Do you want to cancel this ride ?</string>
+    <string name="text_alert_gps_not_on">Gps network not available !</string>
+    <string name="text_btn_open_setting">Open Location setting</string>
+    <string name="text_enter_reason_for_cancel">please enter the reason for cancel booking</string>
+    <string name="text_no_ride_for_cancel">You Have no ride to Cancel !</string>
+    <string name="text_something_went_wrong">Something went wrong, please try again!</string>
+    <string name="text_can_not_cancel_ride">Now you can not cancel this ride</string>
+
+    <string name="text_enter_pass">Please enter correct old password</string>
+    <string name="text_enter_new_pass">please enter new password</string>
+    <string name="text_enter_six_digit_pass">Please enter minimum 6 digit password</string>
+    <string name="text_enter_confirm_pass">please enter new confirm password</string>
+    <string name="text_enter_correct_old_pass">please enter correct confirm password</string>
+    <string name="text_logout_msg">Logout successfull</string>
+    <string name="text_canceled_reason">Your ride has been canceled due to this reason</string>
+    <string name="text_can_not_start_upcoming_ride">You can not start ride before booking date </string>
+
+
+    <!--Trip Monthly-->
+    <string name="tripmonthly_text_price">Price</string>
+    <string name="tripmonthly_text_timmer_time">Pickup time</string>
+    <string name="tripmonthly_text_date">Start date</string>
+    <string name="tripmonthly_text_source_place">Source Place</string>
+    <string name="tripmonthly_text_desti_place">Destination Place</string>
+    <string name="tripmonthly_text_cust_type">Customer type</string>
+    <string name="add_account">Add only your personal paypal account.</string>
+    <string name="text_monthly_booking">Trip monthly booking</string>
+    <string name="text_monthly_bookingid">Booking Id</string>
+    <string name="text_monthly_name">Driver name</string>
+    <string name="text_monthly_from">From </string>
+    <string name="text_monthly_to">To </string>
+    <string name="text_monthly_time">Trip time </string>
+    <string name="text_monthly_date">Trip date</string>
+    <string name="text_monthly_cost">Total cost</string>
+    <string name="text_monthly_distance">Distance</string>
+    <string name="text_monthly_contact">Contact</string>
+    <string name="text_no_data">No monthly trip available</string>
+    <string name="text_btn_minthly">Make Payment</string>
+    <string name="text_new_monthly_req">New monthly request</string>
+    <string name="text_trip_type">Trip type</string>
+    <string name="text_payment_status">Payment status</string>
+    <string name="text_cancel_reason">Reason</string>
+    <string name="text_route_not_available">this route is not available</string>
+    <string name="text_select_pickup_time">select pickup time of booking !</string>
+    <string name="text_select_pickup_date">select start date of booking !</string>
+    <string name="text_select_date">Please select date</string>
+
+    <string name="text_create_another_typeof_trip">You can not create trip later for current date, please create trip now.</string>
+
+    <string name="text_expire_tm">You have to pay in 24 hours for this trip after 24 hours your trip will expire.</string>
+
+
+    <string name="confirmbooking_text">Do you want to confirm this ride ?</string>
+
+    <!--    setting-->
+    <string name="text_setting">Select your local language for this app</string>
+    <string name="btn_setting_eng">English</string>
+    <string name="btn_setting_arabic">Arabic</string>
+
+    <!--notification-->
+    <string name="text_pass_name">Passenger Name </string>
+    <string name="text_pass_trip_date">Trip Date  </string>
+    <string name="btn_accept"> Accept  </string>
+    <string name="btn_reject"> Reject  </string>
+    <string name="text_new_req"> New Request  </string>
+    <string name="text_curr_new_req"> Current New Request  </string>
+    <string name="text_exit_app"> Do you want to exit ?  </string>
+
+
+    <string name="route_txt_km">0 km</string>
+    <string name="route_txt_ridetimetxt">00:15:30</string>
+    <string name="route_txt_faretxt">12:30 pm</string>
+    <!--arrays used in taxi app-->
+
+    <string-array name="customer_type">
+        <item>Student</item>
+        <item>Employee</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="vehicle_type">
+        <item>Other</item>
+        <item>Micro</item>
+        <item>Mini</item>
+        <item>Sedan</item>
+        <item>Vip Car</item>
+
+    </string-array>
+
+    <string-array name="CountryCodes">
+        <item>SA 966</item>
+        <item>AF 93</item>
+        <item>AL 355</item>
+        <item>DZ 213</item>
+        <item>AD 376</item>
+        <item>AO 244</item>
+        <item>AQ 672</item>
+        <item>AR 54</item>
+        <item>AM 374</item>
+        <item>AW 297</item>
+        <item>AU 61</item>
+        <item>AT 43</item>
+        <item>AZ 994</item>
+        <item>BH 973</item>
+        <item>BD 880</item>
+        <item>BY 375</item>
+        <item>BE 32</item>
+        <item>BZ 501</item>
+        <item>BJ 229</item>
+        <item>BT 975</item>
+        <item>BO 591</item>
+        <item>BA 387</item>
+        <item>BW 267</item>
+        <item>BR 55</item>
+        <item>BN 673</item>
+        <item>BG 359</item>
+        <item>BF 226</item>
+        <item>MM 95</item>
+        <item>BI 257</item>
+        <item>KH 855</item>
+        <item>CM 237</item>
+        <item>CA 1</item>
+        <item>CV 238</item>
+        <item>CF 236</item>
+        <item>TD 235</item>
+        <item>CL 56</item>
+        <item>CN 86</item>
+        <item>CX 61</item>
+        <item>CC 61</item>
+        <item>CO 57</item>
+        <item>KM 269</item>
+        <item>CG 242</item>
+        <item>CD 243</item>
+        <item>CK 682</item>
+        <item>CR 506</item>
+        <item>HR 385</item>
+        <item>CU 53</item>
+        <item>CY 357</item>
+        <item>CZ 420</item>
+        <item>DK 45</item>
+        <item>DJ 253</item>
+        <item>TL 670</item>
+        <item>EC 593</item>
+        <item>EG 20</item>
+        <item>SV 503</item>
+        <item>GQ 240</item>
+        <item>ER 291</item>
+        <item>EE 372</item>
+        <item>ET 251</item>
+        <item>FK 500</item>
+        <item>FO 298</item>
+        <item>FJ 679</item>
+        <item>FI 358</item>
+        <item>FR 33</item>
+        <item>PF 689</item>
+        <item>GA 241</item>
+        <item>GM 220</item>
+        <item>GE 995</item>
+        <item>DE 49</item>
+        <item>GH 233</item>
+        <item>GI 350</item>
+        <item>GR 30</item>
+        <item>GL 299</item>
+        <item>GT 502</item>
+        <item>GN 224</item>
+        <item>GW 245</item>
+        <item>GY 592</item>
+        <item>HT 509</item>
+        <item>HN 504</item>
+        <item>HK 852</item>
+        <item>HU 36</item>
+        <item>IN 91</item>
+        <item>ID 62</item>
+        <item>IR 98</item>
+        <item>IQ 964</item>
+        <item>IE 353</item>
+        <item>IM 44</item>
+        <item>IL 972</item>
+        <item>IT 39</item>
+        <item>CI 225</item>
+        <item>JP 81</item>
+        <item>JO 962</item>
+        <item>KZ 7</item>
+        <item>KE 254</item>
+        <item>KI 686</item>
+        <item>KW 965</item>
+        <item>KG 996</item>
+        <item>LA 856</item>
+        <item>LV 371</item>
+        <item>LB 961</item>
+        <item>LS 266</item>
+        <item>LR 231</item>
+        <item>LY 218</item>
+        <item>LI 423</item>
+        <item>LT 370</item>
+        <item>LU 352</item>
+        <item>MO 853</item>
+        <item>MK 389</item>
+        <item>MG 261</item>
+        <item>MW 265</item>
+        <item>MY 60</item>
+        <item>MV 960</item>
+        <item>ML 223</item>
+        <item>MT 356</item>
+        <item>MH 692</item>
+        <item>MR 222</item>
+        <item>MU 230</item>
+        <item>YT 262</item>
+        <item>MX 52</item>
+        <item>FM 691</item>
+        <item>MD 373</item>
+        <item>MC 377</item>
+        <item>MN 976</item>
+        <item>ME 382</item>
+        <item>MA 212</item>
+        <item>MZ 258</item>
+        <item>NA 264</item>
+        <item>NR 674</item>
+        <item>NP 977</item>
+        <item>NL 31</item>
+        <item>AN 599</item>
+        <item>NC 687</item>
+        <item>NZ 64</item>
+        <item>NI 505</item>
+        <item>NE 227</item>
+        <item>NG 234</item>
+        <item>NU 683</item>
+        <item>KP 850</item>
+        <item>NO 47</item>
+        <item>OM 968</item>
+        <item>PK 92</item>
+        <item>PW 680</item>
+        <item>PA 507</item>
+        <item>PG 675</item>
+        <item>PY 595</item>
+        <item>PE 51</item>
+        <item>PH 63</item>
+        <item>PN 870</item>
+        <item>PL 48</item>
+        <item>PT 351</item>
+        <item>PR 1</item>
+        <item>QA 974</item>
+        <item>RO 40</item>
+        <item>RU 7</item>
+        <item>RW 250</item>
+        <item>BL 590</item>
+        <item>WS 685</item>
+        <item>SM 378</item>
+        <item>ST 239</item>
+
+        <item>SN 221</item>
+        <item>RS 381</item>
+        <item>SC 248</item>
+        <item>SL 232</item>
+        <item>SG 65</item>
+        <item>SK 421</item>
+        <item>SI 386</item>
+        <item>SB 677</item>
+        <item>SO 252</item>
+        <item>ZA 27</item>
+        <item>KR 82</item>
+        <item>ES 34</item>
+        <item>LK 94</item>
+        <item>SH 290</item>
+        <item>PM 508</item>
+        <item>SD 249</item>
+        <item>SR 597</item>
+        <item>SZ 268</item>
+        <item>SE 46</item>
+        <item>CH 41</item>
+        <item>SY 963</item>
+        <item>TW 886</item>
+        <item>TJ 992</item>
+        <item>TZ 255</item>
+        <item>TH 66</item>
+        <item>TG 228</item>
+        <item>TK 690</item>
+        <item>TO 676</item>
+        <item>TN 216</item>
+        <item>TR 90</item>
+        <item>TM 993</item>
+        <item>TV 688</item>
+        <item>AE 971</item>
+        <item>UG 256</item>
+        <item>GB 44</item>
+        <item>UA 380</item>
+        <item>UY 598</item>
+        <item>US 1</item>
+        <item>UZ 998</item>
+        <item>VU 678</item>
+        <item>VA 39</item>
+        <item>VE 58</item>
+        <item>VN 84</item>
+        <item>WF 681</item>
+        <item>YE 967</item>
+        <item>ZM 260</item>
+        <item>ZW 263</item>
+    </string-array>
+    <string name="title_activity_passenger_registration">PassengerRegistrationActivity</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="please_confirm_password">please confirm  password</string>
+    <string name="password_does_not_match">Password does not match</string>
+    <string name="please_accept_terms_and_cond"><![CDATA[Please Accept Terms & Conditions]]></string>
+    <string name="please_select_gender">Please select a gender</string>
+    <string name="please_select_vehicle_type">Please select a vehicle type</string>
+    <string name="access_phone_media_permission_req">Access phone media permission required to select image</string>
+    <string name="please_enter_fullname">Please enter full name</string>
+    <string name="title_activity_home">Make my trip</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dob">Date of Birth</string>
+    <string name="captain_identity_number">Captain Identity Number</string>
+    <string name="caption_identity_msg">Please enter your caption identity number</string>
+    <string name="dob_msg">Please enter your date of birth</string>
+
+
+</resources>

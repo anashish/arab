@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:focusableInTouchMode="true">
+    <include
+        android:id="@+id/driverVehicleInfoToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/actionbar_layout_allscreen_driver"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/driverVehicleInfoToolbar"
+        android:id="@+id/vehicleProfileHeader"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_height="@dimen/_120sdp">
+
+        <ImageView
+            android:id="@+id/iv_VI_profilePic"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:background="@drawable/person"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/tvVIProfileName"
+            android:layout_below="@+id/iv_VI_profilePic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:hint="User Name"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_VI_drpDwn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vehicleProfileHeader"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:orientation="vertical"
+        android:padding="@dimen/_4sdp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/VI_tvVehicleType"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:background="@drawable/bg_edittext_green"
+            android:gravity="center_vertical"
+            android:text="@string/text_vehicle_type"
+            android:textColor="@color/colorPrimaryDark"
+            android:singleLine="true"
+            android:drawableRight="@drawable/icon_drop_down"
+            android:padding="@dimen/_5sdp"/>
+
+
+        <TextView
+            android:id="@+id/VI_tvVehicleFeatures"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:background="@drawable/bg_edittext_green"
+            android:gravity="center_vertical"
+            android:text="@string/text_vehicle_feature"
+            android:textColor="@color/colorPrimaryDark"
+            android:singleLine="true"
+            android:drawableRight="@drawable/icon_drop_down"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="@dimen/_5sdp"/>
+
+        <Button
+            android:id="@+id/btnUpdateVF"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:text="@string/text_btn_update"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_ly_green_btn"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lyVehicleFeatures"
+        android:layout_below="@+id/ly_VI_drpDwn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/_5sdp"
+        android:visibility="gone"
+        android:background="@drawable/bg_trip_monthly">
+
+        <ListView
+            android:layout_margin="@dimen/_1sdp"
+            android:id="@+id/dialog_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@+id/dialog_listview"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_ly_green_btn"
+            android:text="Done"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "676774152607",
+    "firebase_url": "https://mishwar-142809.firebaseio.com",
+    "project_id": "mishwar-142809",
+    "storage_bucket": "mishwar-142809.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676774152607:android:7325b0d4a9e8c39d",
+        "android_client_info": {
+          "package_name": "com.mishwar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676774152607-1u4gr8r9trjqn6ablne9a95hprn0nhl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mishwar",
+            "certificate_hash": "801002D7BEEAA53D06C8F27FD196603C699E4532"
+          }
+        },
+        {
+          "client_id": "676774152607-qek4dqtetbhq97tbmfrf353n3g6upm5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVp5UEJdYC301NrHmUn6A9uXgbPIxnlmQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676774152607-qek4dqtetbhq97tbmfrf353n3g6upm5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

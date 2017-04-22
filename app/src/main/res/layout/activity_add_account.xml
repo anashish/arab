@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <include
+        android:id="@+id/paypalActivityToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/actionbar_layout_allscreen_driver"/>
+
+    <TextView
+        android:layout_below="@+id/paypalActivityToolbar"
+        android:id="@+id/tvAddAccountText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:background="@drawable/bg_ly_btn"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        android:gravity="center"
+        android:text="@string/add_account"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical" >
+
+
+        <!--        <Button
+                    android:id="@+id/buyItBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:onClick="onBuyPressed"
+                    android:text="Buy a Thing" />-->
+
+        <!--<Button
+            android:id="@+id/futurePaymentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="onFuturePaymentPressed"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="Login with Paypal"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_ly_green_btn"
+            />-->
+
+
+        <!--   <Button
+               android:id="@+id/futurePaymentPurchaseBtn"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               android:onClick="onFuturePaymentPurchasePressed"
+               android:text="Future Payment Purchase" />
+   -->
+          <Button
+              android:id="@+id/profileSharingBtn"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:onClick="onProfileSharingPressed"
+              android:textAllCaps="false"
+              android:textColor="@color/white"
+              android:text="Login with Paypal"
+              android:textSize="@dimen/_14sdp"
+              android:textStyle="bold"
+              android:background="@drawable/bg_ly_green_btn"
+              />
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:id="@+id/txtResult" />-->
+
+        <!-- <EditText
+             android:id="@+id/etAddPaypalID"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/_35sdp"
+             android:background="@drawable/bg_trip_monthly"
+             android:hint="@string/submit_paypal_id_text"
+             android:gravity="center"
+             android:imeOptions="actionDone"
+             />
+
+         <Button
+             android:id="@+id/tvSubmitPaypalId"
+             android:layout_below="@+id/btnPaymentInfoSubmit"
+             android:layout_width="@dimen/_200sdp"
+             android:layout_height="@dimen/_40sdp"
+             android:text="@string/text_done"
+             android:gravity="center"
+             android:textSize="@dimen/_16sdp"
+             android:textAlignment="center"
+             android:textColor="@color/white"
+             android:layout_marginTop="@dimen/_20sdp"
+             android:textAllCaps="false"
+             android:background="@drawable/bg_ly_green_btn"
+             />
+
+ -->
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/lower_image"/>
+
+</RelativeLayout>

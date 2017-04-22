@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <fragment
+        android:id="@+id/myBookingMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+    <Button
+        android:layout_width="@dimen/_62sdp"
+        android:layout_height="@dimen/_62sdp"
+        android:id="@+id/btnPassengerTripInfo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:background="@drawable/bg_circle_tripinfo"
+        android:text="@string/text_trip_info"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPassengerCancelTrip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/bg_ly_green_btn"
+        android:text="@string/btn_text_cancel_trip"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>

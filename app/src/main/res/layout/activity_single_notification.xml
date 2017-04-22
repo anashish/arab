@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_single_notification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transperant"
+    >
+
+    <include
+        android:id="@+id/driverCurrentRideNotificationToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/actionbar_layout_allscreen_driver"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/driverCurrentRideNotificationToolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ly_round_corner_border"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ReqHeader"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:text="@string/text_new_req"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="@dimen/_16sdp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_ly_tripletter_heder"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:hint="@string/text_pass_name"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="start"
+
+                    />
+                <TextView
+                    android:id="@+id/passengerName"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="jack Little"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:textColorHint="@color/colorPrimary"
+
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/light_gray"
+                >
+            </View>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2"          >
+                .
+                <TextView
+                    android:hint="@string/text_pickup"
+                    android:id="@+id/tv_pickupAdress"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="start"
+                    />
+                <TextView
+                    android:id="@+id/passengerPickUpAdddress"
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="indore"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:textColorHint="@color/colorPrimary"
+                    android:maxLines="3"
+                    />
+
+            </LinearLayout>
+            <View
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/light_gray"
+                >
+            </View>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2"
+                >
+                .
+                <TextView
+                    android:hint="@string/text_destination"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="start"
+                    />
+                <TextView
+                    android:id="@+id/passengerDestinationAdddress"
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="indore"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:textColorHint="@color/colorPrimary"
+                    android:maxLines="3"
+
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@color/light_gray"
+                >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/ly_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2"     >
+                .
+                <TextView
+                    android:hint="@string/text_monthly_time"
+                    android:id="@+id/tv_time"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="start"
+                    />
+                <TextView
+                    android:id="@+id/bookedTripTime"
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="indore"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:textColorHint="@color/colorPrimary"
+                    android:maxLines="3"
+
+
+                    />
+
+            </LinearLayout>
+            <View
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/light_gray"
+                >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/ly_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2"           >
+                .
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:hint="@string/text_pass_trip_date"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="start"
+                    />
+                <TextView
+                    android:id="@+id/bookedTripDate"
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="indore"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:textColorHint="@color/colorPrimary"
+                    android:maxLines="3"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line7"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@color/light_gray"
+                android:layout_marginTop="@dimen/_5sdp"
+                >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/ly_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2"
+                >
+                .
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:hint="@string/text_monthly_cost"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="start"
+                    />
+                <TextView
+                    android:id="@+id/bookedTripprice"
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="indore"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:textColorHint="@color/colorPrimary"
+                    android:maxLines="3"
+
+                    />
+
+            </LinearLayout>
+            <View
+                android:id="@+id/line6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@color/light_gray"
+                android:layout_marginTop="@dimen/_5sdp"
+                >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/ly_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2"        >
+                .
+                <TextView
+                    android:id="@+id/tv_distance"
+                    android:hint="@string/text_monthly_distance"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="start"
+                    />
+                <TextView
+                    android:id="@+id/bookedTripDistance"
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="indore"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:textColorHint="@color/colorPrimary"
+                    android:maxLines="3"
+
+                    />
+
+            </LinearLayout>
+            <View
+                android:id="@+id/line9"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@color/light_gray"
+                android:layout_marginTop="@dimen/_5sdp"
+                >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/lyPaymenType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2"             >
+                .
+                <TextView
+                    android:hint="@string/text_payment_type"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="start"
+                    />
+                <TextView
+                    android:id="@+id/tvPaymenType"
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="wrap_content"
+                    android:hint="indore"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:textColorHint="@color/colorPrimary"
+                    android:maxLines="3"
+
+                    />
+
+            </LinearLayout>
+            <View
+                android:id="@+id/line10"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@color/light_gray"
+                android:layout_marginTop="@dimen/_5sdp"
+                >
+            </View>
+
+
+            <LinearLayout
+                android:id="@+id/ly_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="@dimen/_10sdp">
+
+                <Button
+                    android:id="@+id/accept_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:text="@string/btn_accept"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:textAllCaps="false"
+                    android:background="@drawable/bg_ly_green_btn"
+                    />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"/>
+                <Button
+                    android:id="@+id/cancel_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:text="@string/btn_reject"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:gravity="center"
+                    android:layout_gravity="right"
+                    android:textAllCaps="false"
+                    android:background="@drawable/bg_ly_green_btn"
+
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_below="@+id/cancel_btn"
+                >
+            </View>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

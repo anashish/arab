@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_56sdp"
+    android:layout_marginTop="@dimen/_7sdp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg_tv_setpickup">
+
+
+    <ImageView
+        android:id="@+id/home_iv_editpickup"
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/ic_menu_edit"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/home_iv_editdestn"
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_alignTop="@+id/tv_destn_hd"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/ic_menu_edit"
+        android:visibility="visible"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_pick_hd"
+        android:hint="@string/text_pickup"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_29sdp"
+        android:layout_marginEnd="@dimen/_28sdp"
+        android:layout_marginRight="@dimen/_28sdp"
+        android:drawableLeft="@drawable/icon_green_circle"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:imeOptions="actionNext"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:singleLine="true"
+        android:background="@null"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="visible"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_destn_hd"
+        android:layout_below="@+id/tv_pick_hd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_marginEnd="@dimen/_28sdp"
+        android:layout_marginRight="@dimen/_28sdp"
+        android:imeOptions="actionDone"
+        android:textColor="@color/colorPrimaryDark"
+        android:drawableLeft="@drawable/icon_red_circle"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="@string/text_destination"
+        android:singleLine="true"
+        android:background="@null"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="visible"/>
+</RelativeLayout>

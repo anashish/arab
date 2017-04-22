@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+
+    >
+    <RelativeLayout
+        android:id="@+id/layout_tripNow"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="@dimen/_85sdp"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:background="@drawable/mid_nav_bar"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_height="@dimen/_85sdp">
+
+            <LinearLayout
+                android:id="@+id/layout_tripNow_iv_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                >
+                <ImageView
+                    android:id="@+id/home_b_tripnow"
+                    android:layout_width="@dimen/_44sdp"
+                    android:layout_height="@dimen/_44sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/icon_trip_now"
+
+                    />
+
+                <TextView
+                    android:id="@+id/home_tv_tripnow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_trip_now"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_tripLetter_iv_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                >
+                <ImageView
+                    android:id="@+id/home_b_triplater"
+                    android:layout_width="@dimen/_44sdp"
+                    android:layout_height="@dimen/_44sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/icon_trip_now" />
+
+                <TextView
+                    android:id="@+id/home_tv_later"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_trip_later"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_tripMonthly_iv_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_15sdp"
+
+                >
+                <ImageView
+                    android:id="@+id/home_b_tripmothly"
+                    android:layout_width="@dimen/_44sdp"
+                    android:layout_height="@dimen/_44sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/icon_trip_now" />
+                <TextView
+                    android:id="@+id/home_tv_monthly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_trip_monthly"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/layout_vehicletype_options"
+        android:id="@+id/vehicletype_options"
+        android:visibility="gone"
+        />
+
+
+</FrameLayout>

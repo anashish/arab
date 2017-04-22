@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_vehicletype_listOption">
+
+    <com.mishwar.scrol_listview.TwoWayGridView
+        android:id="@+id/lv_vehicleType"
+        android:background="@drawable/bg_fl_transparent_dark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        app:listSelector="@color/light_gray"
+        app:columnWidth="@dimen/_65sdp"
+        app:rowHeight="@dimen/_65sdp"
+        app:numColumns="auto_fit"
+        app:numRows="1"
+        app:horizontalSpacing="@dimen/_30sdp"
+        app:stretchMode="spacingWidthUniform"
+        app:scrollDirectionPortrait="horizontal"
+        app:scrollDirectionLandscape="horizontal"
+        android:layout_centerInParent="true"
+        app:gravity="center"
+        android:gravity="center"
+        >
+    </com.mishwar.scrol_listview.TwoWayGridView>
+</RelativeLayout>

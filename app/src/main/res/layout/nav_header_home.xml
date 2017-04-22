@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:focusableInTouchMode="true"
+    android:layout_height="@dimen/_150sdp">
+
+    <ImageView
+        android:id="@+id/ivPassNavProfilePic"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/person"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_below="@+id/ivPassNavProfilePic"
+        android:id="@+id/tvPassNavProfilePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:hint="User Name"/>
+
+    <ImageView
+        android:id="@+id/ivPassNavForward"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:background="@drawable/rightarrow"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:padding="@dimen/_4sdp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,493 @@
+<resources>
+    <string name="app_name">مشوار العاصمة</string>
+    <string name="facebook_app_id">1213714542022009</string>
+    <!--<string name="google_api_key">AIzaSyA4t7Q2xXGs2-RvgkOdEsBD6YUMsY708GQ</string>-->
+    <string name="title_activity_role">RoleActivity</string>
+    <string name="title_activity_verify_phone">التأكيد على رقم الجوال</string>
+    <string name="select_your_role">قم باختيار دورك </string>
+    <string name="driver">سائق</string>
+    <string name="passenger">راكب</string>
+    <string name="taxi_app_will_send_a_one_time_sms_message_to_verify_your_phone_number_carrier_sms_charges_may_apply">سوف يقوم تطبيق مشوار العاصمة بأرسال رسالة لتأكيد رقم الجوال , قد تطبق رسوم الناقل</string>
+    <string name="please_confirm_your_country_code_and_enter_your_phone_number">رجاء قم باختيار رمز البلد وادخل رقم الجوال</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="ok">OK</string>
+    <string name="please_enter_verification_code">ادخل الرمز التاكيدي رجاءا</string>
+    <string name="next">التالي</string>
+    <string name="title_activity_login">آخر الدخول</string>
+    <string name="title_activity_registration">آخر تسجيل</string>
+    <string name="enter_email">ادخل الايميل</string>
+    <string name="enter_old_pass">أدخل كلمة المرور القديمة</string>
+    <string name="enter_new_pass">أدخل كلمة المرور الجديدة</string>
+    <string name="enter_password">كلمه السر</string>
+    <string name="sign_in">دخول</string>
+    <string name="submit">موافق</string>
+    <string name="text_done">فعله</string>
+    <string name="or">OR</string>
+    <string name="create_an_account">ادخل الايميل</string>
+    <string name="forget_password">هل نسيت كلمة المرور؟</string>
+    <string name="please_enter_mobile_number">الرجاء إدخال رقم الجوال</string>
+    <string name="please_enter_otp">الرجاء إدخال مكتب المدعي العام</string>
+    <string name="otp_sent">أرسلت مكتب المدعي العام، يرجى التحقق من البريد الوارد الخاص بك</string>
+    <string name="please_enter_your_password">من فضلك أدخل رقمك السري</string>
+    <string name="please_enter_your_email">يرجى إدخال البريد الإلكتروني الخاص بك</string>
+    <string name="please_enter_a_valid_email">يرجى إدخال البريد الإلكتروني الصحيح</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name="vehicleno">عدد المركبات</string>
+    <string name="licence_no_registration_no">رخصة رقم / رقم التسجيل</string>
+    <string name="licence_expiry_date">رخصة تاريخ الانتهاء</string>
+    <string name="attach_identity">إرفاق الهوية سيارة</string>
+    <string name="by_submitting_this_form_i_agree_to_taxi_app_terms_contditions_i_hereby_confirm_that_the_information_provided_is_accurate_complete_up_to_date"> <![CDATA[من خلال تقديم هذا النموذج، أنا أوافق على مشوار التطبيق الشروط والأحكام. أنا هنا أؤكد أن المعلومات المقدمة دقيقة وكاملة وما يصل إلى تاريخ
+]]></string>
+    <string name="sign_up">سجل</string>
+    <string name="submit_paypal_id_text">أدخل معرف باي بال الخاص بك هنا</string>
+    <string name="add_paypal_id_text">إضافة حساب باي بال</string>
+    <string name="date_hint">YYYY/MM/DD</string>
+    <string name="total_earning_text">الدخل الكلي</string>
+    <string name="text_cash">كاش</string>
+    <string name="text_paypal">باي بال</string>
+
+    <string name="text_take_photo">تصوير </string>
+    <string name="text_chose_gellery">اختيار من بينها معرض</string>
+    <string name="text_add_photo">إضافة صورة</string>
+    <string name="text_attached">تعلق</string>
+
+    <!--network error-->
+    <string name="network_not_available">الشبكة غير متاحة. الرجاء التحقق من اتصال الشبكة</string>
+    <string name="progress_target_date">يرجى تحديد الموعد المستهدف</string>
+    <string name="text_select_date">يرجى تحديد التاريخ</string>
+    <string name="text_add_paypalid">لم هذا السائق لا تضيف هوياتهم باي بال يرجى دفع مع وسيلة أخرى</string>
+
+    <!-- home-->
+    <string name="text_home">الصفحة الرئيسية</string>
+    <string name="text_source_address">العنوان</string>
+    <string name="text_my_profile">الملف الشخصي</string>
+    <string name="text_vehicle_info">معلومات المركبة</string>
+    <string name="text_my_booking">حجوزاتي</string>
+    <string name="text_pending_req"> الطلبات المعلقة</string>
+    <string name="text_call_support">الاتصال بالدعم</string>
+    <string name="text_payment_info">تفاصيل الدفع</string>
+    <string name="text_forgot_pass">هل نسيت كلمة المرور</string>
+    <string name="text_setting_menu">ضبط</string>
+    <string name="text_bout_us">معلومات عنا</string>
+    <string name="text_logout">تسجيل الخروج</string>
+    <string name="text_notification">إعلام</string>
+    <string name="text_make_my_trip"> احجز رحلتي</string>
+    <string name="text_your_total_payment">المبلغ الإجمالي هو  $</string>
+    <string name="text_pay_cash">ادفع نقدا</string>
+
+    <string name="text_booking_summry">ملخص الكتاب</string>
+    <string name="text_your_booking_id">حجز بطاقتك الشخصية</string>
+
+    <string name="text_exit_app">هل تريد الخروج ؟
+</string>
+
+    <string name="text_pickup"> عنوان بداية الرحلة  </string>
+    <string name="text_destination">عنوان الوجهة</string>
+    <string name="text_trip_now">رحلة الآن</string>
+    <string name="text_trip_later">رحلة في وقت لاحق</string>
+    <string name="text_trip_monthly">رحلة شهريا</string>
+    <string name="text_payment_type">نوع الدفع</string>
+    <string name="text_vehicle_type">نوع السيارة</string>
+    <string name="text_confirm_booking">تأكيد الحجز</string>
+
+    <string name="text_select_max_pass"> يمكنك تحديد الحد الأقصى</string>
+    <string name="text_select_max_pass_for_car"> الركاب في وقت لهذه السيارة</string>
+    <string name="text_select_pass_msg"> حدد 1 على الأقل الركاب</string>
+    <string name="text_car_rate_by_dist">معدل المسافة للمركبة</string>
+    <string name="text_car_rate_by_time"> معدل الزمن للمركبة</string>
+    <string name="text_opening_counter"> سعر العداد الافتتاحي </string>
+    <string name="text_total_esti_price"> السعر النهائي </string>
+    <string name="text_esti_distance"> المسافة المقدرة للرحلة</string>
+    <string name="text_esti_time"> الزمن المقدر للرحلة </string>
+    <string name="text_add_passenger_count"> اضف راكب اخر </string>
+    <string name="text_btn_ok"> موافق </string>
+    <string name="text_btn_yes"> نعم </string>
+    <string name="text_btn_no"> لا </string>
+    <string name="text_select_another_car_type"> اختار نوع مركبات جديد </string>
+    <string name="text_select_another_trip"> احجز رحلة جديدة </string>
+    <string name="text_no_driver_found"> لا يوجد سائق لهذا النوع من المركبات </string>
+    <string name="text_doyou_want_create_new_trip"> هل تريد إنشاء رحلة جديدة؟</string>
+    <string name="text_select_payment_type"> اختار طريقة الدفع</string>
+    <string name="text_select_time"> حدد وقت</string>
+    <string name="text_submit_req"> تقديم الطلب</string>
+    <string name="text_driver_info"> معلومات السائق</string>
+    <string name="text_driver_name"> اسم السائق </string>
+    <string name="text_driver_car_type"> نوع السيارة</string>
+    <string name="text_driver_car_facility"> مرفق سيارة</string>
+    <string name="text_driver_rating"> تصنيف </string>
+    <string name="text_driver_review"> أدخل رأيك</string>
+
+    <string name="text_enter_pass">يرجى إدخال كلمة المرور القديمة</string>
+    <string name="text_enter_new_pass">يرجى إدخال كلمة المرور الجديدة</string>
+    <string name="text_enter_six_digit_pass">الرجاء إدخال الحد الأدنى كلمة السر 6 أرقام</string>
+    <string name="text_enter_confirm_pass">يرجى إدخال كلمة المرور تأكيد جديد</string>
+    <string name="text_enter_correct_old_pass">يرجى إدخال كلمة السر تأكيد الصحيحة</string>
+    <string name="text_canceled_reason">تم إلغاء رحلتك نتيجة لهذا السبب</string>
+
+    <string name="text_logout_msg">النجاح في الخروج</string>
+
+    <string name="text_already_create_ride"> كنت قد قمت بالفعل مطية لهذا التاريخ</string>
+
+    <string name="text_req_has_rejected"> تم رفض طلب الخاص بك! يرجى تقديم ركوب الجديد للسائق آخر!</string>
+    <string name="text_req_has_accepted"> تم قبول طلبك</string>
+    <string name="text_select_destination"> الرجاء اختيار عنوان الوجهة</string>
+    <string name="text_select_pickup">قم باختيار عنوان بداية الرحلة وعنوان الوجهة اولا</string>
+    <string name="text_now_select__driver"> الآن يمكنك تحديد برنامج تشغيل</string>
+
+    <string name="text_ride_has_started">وقد بدأت رحلتك</string>
+    <string name="text_ride_has_ended">وقد انتهى رحلتك</string>
+    <string name="text_u_r_ontheway"> الآن أنت على الطريق</string>
+    <string name="text_ride_has_cancel"> تم إلغاء رحلتك</string>
+
+    <string name="text_active"> على الانترنت</string>
+    <string name="text_inactive"> غير متصل</string>
+
+    <!-- profile-->
+    <string name="text_user_name">اسم المستخدم</string>
+    <string name="text_full_name">الاسم الكامل</string>
+    <string name="text_user_email">العضو مراسلة</string>
+    <string name="text_vehicle_id_proof">ارفق الرخصة</string>
+    <string name="text_btn_update">تحديث</string>
+    <string name="text_changepass">تغيير كلمة السر</string>
+    <string name="text_add_contact">إضافة الاتصال في حالات الطوارئ</string>
+    <string name="text_waiting_timmer">في انتظار الرد سائق</string>
+    <!--vehicle info-->
+    <string name="text_vehicle_feature">السيارة الميزات</string>
+
+    <!--my booking-->
+    <string name="text_current">الحالية</string>
+    <string name="text_previous">السابقة</string>
+    <string name="text_upcoming">القادمة</string>
+    <string name="text_cancelled">الملغاة</string>
+    <string name="text_trip_info">معلومات الرحلة</string>
+    <string name="text_call">مكالمة</string>
+    <string name="text_cancel">إلغاء</string>
+    <string name="btn_text_ontheway">علي الطريق</string>
+    <string name="btn_text_start">تبدأ رحلة</string>
+    <string name="btn_text_cancel_trip"> الغاء الرحلة </string>
+    <string name="btn_text_end_trip">نهاية رحلة</string>
+    <string name="btn_no_booking_available">لا الحجز متاح حتى الآن.</string>
+    <string name="btn_ride_type"> نوع الرحلة </string>
+    <string name="btn_ride_status"> حالة بداية الرحلة </string>
+    <string name="text_ride_date_time">التاريخ و الوقت</string>
+    <string name="text_upcoming_booking">الحجز القادم</string>
+
+    <string name="text_alert_sure">هل تريد وضع حد لهذه الرحلة؟</string>
+    <string name="text_currently_no_ride">حاليا لا يوجد لديك أي طلب</string>
+    <string name="text_alert_sure_ontheway">هل أنت متأكد أنك على الطريق؟</string>
+    <string name="text_alert_sure_start_ride">هل تريد أن تبدأ هذه الرحلة؟</string>
+    <string name="text_alert_sure_cancel_ride">هل ترغب في إلغاء هذه الرحلة؟</string>
+    <string name="text_alert_gps_not_on">شبكة لتحديد المواقع غير متوفرة!</string>
+    <string name="text_btn_open_setting">إعداد الموقع مفتوح</string>
+    <string name="text_enter_reason_for_cancel">الرجاء إدخال سبب إلغاء الحجز</string>
+    <string name="text_no_ride_for_cancel">لا يوجد لديك مطية لالغاء!</string>
+    <string name="text_something_went_wrong">حدث خطأ، يرجى المحاولة مرة أخرى!</string>
+    <string name="text_can_not_cancel_ride">الآن لا يمكنك إلغاء هذه الجولة</string>
+    <string name="text_can_not_start_upcoming_ride">لا يمكنك بدء ركوب قبل تاريخ الحجز</string>
+
+    <!--Trip Monthly-->
+    <string name="tripmonthly_text_price">السعر</string>
+    <string name="tripmonthly_text_timmer_time">اختار المعاد</string>
+    <string name="tripmonthly_text_date">تاريخ البدء</string>
+    <string name="tripmonthly_text_source_place">المصدر مكان</string>
+    <string name="tripmonthly_text_desti_place">المقصد مكان</string>
+    <string name="tripmonthly_text_cust_type">نوع العميل</string>
+    <string name="add_account">فقط إضافة حساب باي بال الشخصية</string>
+    <string name="text_monthly_booking">رحلة حجز الشهري</string>
+    <string name="text_monthly_bookingid"> رقم الحجز </string>
+    <string name="text_monthly_name">اسم سائق</string>
+    <string name="text_monthly_from">من عند</string>
+    <string name="text_monthly_to">إلى </string>
+    <string name="text_monthly_time">وقت الرحلة</string>
+    <string name="text_monthly_date">موعد الرحلة</string>
+    <string name="text_monthly_cost">التكلفة الإجمالية</string>
+    <string name="text_monthly_distance">   المسافة</string>
+    <string name="text_monthly_contact">اتصال </string>
+    <string name="text_no_data">لا رحلة الشهرية المتاحة</string>
+    <string name="text_btn_minthly">قم بالدفع</string>
+    <string name="text_new_monthly_req">طلب الشهري الجديد</string>
+    <string name="text_trip_type">نوع الرحلة</string>
+    <string name="text_payment_status">حالة السداد</string>
+    <string name="text_cancel_reason">سبب</string>
+    <string name="text_route_not_available">هذا الطريق هو غير متوفر</string>
+    <string name="text_select_pickup_time">تحديد الوقت بيك اب الحجز!</string>
+    <string name="text_select_pickup_date">تاريخ بدء حدد الحجز!</string>
+    <string name="text_already_have_tm_trip"> كنت قد قمت بالفعل رحلة mothly، لذلك لا يمكنك إنشاء رحلة شهرية أخرى</string>
+
+    <string name="confirmbooking_text">هل ترغب في تأكيد هذه الرحلة؟</string>
+    <string name="text_total_dist_in_km">المسافة الإجمالية في كم</string>
+    <string name="text_total_time_in_min">الوقت الإجمالي في دقيقة</string>
+    <!--    setting-->
+    <string name="text_setting">اختر لغتك المحلية لهذا التطبيق</string>
+    <string name="btn_setting_eng">English</string>
+    <string name="btn_setting_arabic">Arabic</string>
+    <string name="btn_send">إرسال</string>
+    <string name="text_expire_tm">لديك لدفع في 24 ساعة لهذه الرحلة بعد 24 ساعة رحلتك سوف تنتهي</string>
+
+    <string name="text_create_another_typeof_trip">لا يمكنك إنشاء رحلة في وقت لاحق لتاريخ الحالي، يرجى إنشاء رحلة الآن.</string>
+
+    <!--notification-->
+    <string name="text_pass_name">اسم الراكب</string>
+    <string name="text_pass_trip_date">تاريخ رحلة</string>
+    <string name="btn_accept"> قبول  </string>
+    <string name="btn_reject"> رفض  </string>
+    <string name="text_new_req">   طلب جديد</string>
+    <string name="text_curr_new_req"> طلب جديد الحالي</string>
+
+
+    <string name="route_txt_km">0 km</string>
+    <string name="route_txt_ridetimetxt">00:15:30</string>
+    <string name="route_txt_faretxt">12:30 pm</string>
+
+
+
+
+    <!--arrays used in taxi app-->
+    <string-array name="customer_type">
+        <item>Student</item>
+        <item>Employee</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="vehicle_type">
+        <item>Other</item>
+        <item>Micro</item>
+        <item>Mini</item>
+        <item>Sedan</item>
+        <item>Vip Car</item>
+
+    </string-array>
+
+    <string-array name="CountryCodes">
+        <item>SA 966</item>
+        <item>AF 93</item>
+        <item>AL 355</item>
+        <item>DZ 213</item>
+        <item>AD 376</item>
+        <item>AO 244</item>
+        <item>AQ 672</item>
+        <item>AR 54</item>
+        <item>AM 374</item>
+        <item>AW 297</item>
+        <item>AU 61</item>
+        <item>AT 43</item>
+        <item>AZ 994</item>
+        <item>BH 973</item>
+        <item>BD 880</item>
+        <item>BY 375</item>
+        <item>BE 32</item>
+        <item>BZ 501</item>
+        <item>BJ 229</item>
+        <item>BT 975</item>
+        <item>BO 591</item>
+        <item>BA 387</item>
+        <item>BW 267</item>
+        <item>BR 55</item>
+        <item>BN 673</item>
+        <item>BG 359</item>
+        <item>BF 226</item>
+        <item>MM 95</item>
+        <item>BI 257</item>
+        <item>KH 855</item>
+        <item>CM 237</item>
+        <item>CA 1</item>
+        <item>CV 238</item>
+        <item>CF 236</item>
+        <item>TD 235</item>
+        <item>CL 56</item>
+        <item>CN 86</item>
+        <item>CX 61</item>
+        <item>CC 61</item>
+        <item>CO 57</item>
+        <item>KM 269</item>
+        <item>CG 242</item>
+        <item>CD 243</item>
+        <item>CK 682</item>
+        <item>CR 506</item>
+        <item>HR 385</item>
+        <item>CU 53</item>
+        <item>CY 357</item>
+        <item>CZ 420</item>
+        <item>DK 45</item>
+        <item>DJ 253</item>
+        <item>TL 670</item>
+        <item>EC 593</item>
+        <item>EG 20</item>
+        <item>SV 503</item>
+        <item>GQ 240</item>
+        <item>ER 291</item>
+        <item>EE 372</item>
+        <item>ET 251</item>
+        <item>FK 500</item>
+        <item>FO 298</item>
+        <item>FJ 679</item>
+        <item>FI 358</item>
+        <item>FR 33</item>
+        <item>PF 689</item>
+        <item>GA 241</item>
+        <item>GM 220</item>
+        <item>GE 995</item>
+        <item>DE 49</item>
+        <item>GH 233</item>
+        <item>GI 350</item>
+        <item>GR 30</item>
+        <item>GL 299</item>
+        <item>GT 502</item>
+        <item>GN 224</item>
+        <item>GW 245</item>
+        <item>GY 592</item>
+        <item>HT 509</item>
+        <item>HN 504</item>
+        <item>HK 852</item>
+        <item>HU 36</item>
+        <item>IN 91</item>
+        <item>ID 62</item>
+        <item>IR 98</item>
+        <item>IQ 964</item>
+        <item>IE 353</item>
+        <item>IM 44</item>
+        <item>IL 972</item>
+        <item>IT 39</item>
+        <item>CI 225</item>
+        <item>JP 81</item>
+        <item>JO 962</item>
+        <item>KZ 7</item>
+        <item>KE 254</item>
+        <item>KI 686</item>
+        <item>KW 965</item>
+        <item>KG 996</item>
+        <item>LA 856</item>
+        <item>LV 371</item>
+        <item>LB 961</item>
+        <item>LS 266</item>
+        <item>LR 231</item>
+        <item>LY 218</item>
+        <item>LI 423</item>
+        <item>LT 370</item>
+        <item>LU 352</item>
+        <item>MO 853</item>
+        <item>MK 389</item>
+        <item>MG 261</item>
+        <item>MW 265</item>
+        <item>MY 60</item>
+        <item>MV 960</item>
+        <item>ML 223</item>
+        <item>MT 356</item>
+        <item>MH 692</item>
+        <item>MR 222</item>
+        <item>MU 230</item>
+        <item>YT 262</item>
+        <item>MX 52</item>
+        <item>FM 691</item>
+        <item>MD 373</item>
+        <item>MC 377</item>
+        <item>MN 976</item>
+        <item>ME 382</item>
+        <item>MA 212</item>
+        <item>MZ 258</item>
+        <item>NA 264</item>
+        <item>NR 674</item>
+        <item>NP 977</item>
+        <item>NL 31</item>
+        <item>AN 599</item>
+        <item>NC 687</item>
+        <item>NZ 64</item>
+        <item>NI 505</item>
+        <item>NE 227</item>
+        <item>NG 234</item>
+        <item>NU 683</item>
+        <item>KP 850</item>
+        <item>NO 47</item>
+        <item>OM 968</item>
+        <item>PK 92</item>
+        <item>PW 680</item>
+        <item>PA 507</item>
+        <item>PG 675</item>
+        <item>PY 595</item>
+        <item>PE 51</item>
+        <item>PH 63</item>
+        <item>PN 870</item>
+        <item>PL 48</item>
+        <item>PT 351</item>
+        <item>PR 1</item>
+        <item>QA 974</item>
+        <item>RO 40</item>
+        <item>RU 7</item>
+        <item>RW 250</item>
+        <item>BL 590</item>
+        <item>WS 685</item>
+        <item>SM 378</item>
+        <item>ST 239</item>
+
+        <item>SN 221</item>
+        <item>RS 381</item>
+        <item>SC 248</item>
+        <item>SL 232</item>
+        <item>SG 65</item>
+        <item>SK 421</item>
+        <item>SI 386</item>
+        <item>SB 677</item>
+        <item>SO 252</item>
+        <item>ZA 27</item>
+        <item>KR 82</item>
+        <item>ES 34</item>
+        <item>LK 94</item>
+        <item>SH 290</item>
+        <item>PM 508</item>
+        <item>SD 249</item>
+        <item>SR 597</item>
+        <item>SZ 268</item>
+        <item>SE 46</item>
+        <item>CH 41</item>
+        <item>SY 963</item>
+        <item>TW 886</item>
+        <item>TJ 992</item>
+        <item>TZ 255</item>
+        <item>TH 66</item>
+        <item>TG 228</item>
+        <item>TK 690</item>
+        <item>TO 676</item>
+        <item>TN 216</item>
+        <item>TR 90</item>
+        <item>TM 993</item>
+        <item>TV 688</item>
+        <item>AE 971</item>
+        <item>UG 256</item>
+        <item>GB 44</item>
+        <item>UA 380</item>
+        <item>UY 598</item>
+        <item>US 1</item>
+        <item>UZ 998</item>
+        <item>VU 678</item>
+        <item>VA 39</item>
+        <item>VE 58</item>
+        <item>VN 84</item>
+        <item>WF 681</item>
+        <item>YE 967</item>
+        <item>ZM 260</item>
+        <item>ZW 263</item>
+    </string-array>
+    <string name="title_activity_passenger_registration">PassengerRegistrationActivity</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="please_confirm_password">please confirm  password</string>
+    <string name="password_does_not_match">Password does not match</string>
+    <string name="please_accept_terms_and_cond"><![CDATA[Please Accept Terms & Conditions]]></string>
+    <string name="please_select_gender">Please select a gender</string>
+    <string name="please_select_vehicle_type">Please select a vehicle type</string>
+    <string name="access_phone_media_permission_req">Access phone media permission required to select image</string>
+    <string name="please_enter_fullname">Please enter full name</string>
+    <string name="title_activity_home">Make my trip</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dob">تاريخ الولادة</string>
+    <string name="captain_identity_number">الكابتن رقم الهوية</string>
+    <string name="caption_identity_msg">يرجى إدخال رقم الهوية التسمية التوضيحية</string>
+    <string name="dob_msg">الرجاء ادخال تاريخ ميلادك</string>
+
+</resources>

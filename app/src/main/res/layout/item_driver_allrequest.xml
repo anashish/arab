@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_box"
+        android:layout_margin="@dimen/_2sdp"
+        >
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:id="@+id/custom_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/itemRideType"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/blurBlack"
+                android:layout_alignParentLeft="true"
+                android:text="trip type"
+                android:minLines="1"
+                android:layout_toLeftOf="@+id/custom_auto" />
+
+            <TextView
+                android:layout_below="@+id/itemRideType"
+                android:id="@+id/itemPassengerName"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:maxLines="1"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/blurBlack"
+                android:layout_alignParentLeft="true"
+                android:text="Passenger Name"
+                android:minLines="1"
+                android:layout_toLeftOf="@+id/custom_auto" />
+
+            <TextView
+                android:layout_below="@+id/itemPassengerName"
+                android:id="@+id/itemPassengerPickup"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/blurBlack"
+                android:layout_alignParentLeft="true"
+                android:text="Passenger pickup"
+                android:layout_toLeftOf="@+id/custom_auto" />
+
+            <TextView
+                android:id="@+id/itemPassengerDestination"
+                android:layout_below="@+id/itemPassengerPickup"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/blurBlack"
+                android:layout_alignParentLeft="true"
+                android:text="Passenger destination"
+                />
+
+            <ImageView android:id="@+id/custom_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/car_icon"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/itemBookedTripTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_relative"
+            android:text="time"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/blurBlack"
+            android:layout_marginLeft="@dimen/_12sdp"/>
+
+        <TextView
+            android:id="@+id/itemBookedTripDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemBookedTripTime"
+            android:text="Date"
+            android:textColor="@color/blurBlack"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginLeft="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/itemPassengerCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemBookedTripDate"
+            android:text="No.of passenger"
+            android:maxLines="1"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/blurBlack"
+            android:layout_marginLeft="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/itemPassMobileNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemPassengerCount"
+            android:text="Mobile no."
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/blurBlack"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/itemTripTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemPassMobileNo"
+            android:text="Trip total"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/blurBlack"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_12sdp" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@+id/itemTripTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp"
+            >
+
+            <Button android:id="@+id/itemAcceptBtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="1"
+                android:text="Accept"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                />
+            <Button android:id="@+id/itemCancelBtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/dark_gray"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:id="@+id/layout_carTypeDetail"
+    android:padding="@dimen/_5sdp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/ly_midile"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/text_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="@dimen/_2sdp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:textStyle="bold"
+                    android:hint="@string/text_esti_distance"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_carTypeDetail_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="10 km"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="@dimen/_2sdp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:hint="@string/text_esti_time"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_carTypeDetail_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="15 min"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="@dimen/_2sdp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:hint="@string/text_car_rate_by_dist"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_carTypeDetail_CarRateByDistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="15"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="@dimen/_2sdp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:hint="@string/text_car_rate_by_time"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_carTypeDetail_CarRateByTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="15"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="@dimen/_2sdp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:hint="@string/text_opening_counter"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_carTypeDetail_CarOpeningCounter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="15"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_carTypeDetail_TotalTripPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="@dimen/_2sdp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:hint="@string/text_total_esti_price"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_carTypeDetail_TotalTripPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="50"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorAccent"
+                android:padding="@dimen/_1sdp"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_2sdp"
+                android:text="@string/text_add_passenger_count"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_carDetails_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/tv_carTypeDetail_carName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="mini"/>
+
+            <ImageView
+                android:id="@+id/tv_carTypeDetail_carImage"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:src="@drawable/icon_mini"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@+id/text_layout">
+
+            <RelativeLayout
+                android:id="@+id/ly_addPassenger"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_ly_btn">
+
+                <TextView
+                    android:id="@+id/tv_carTypeDetail_counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"/>
+
+                <ImageView
+                    android:padding="@dimen/_3sdp"
+                    android:id="@+id/iv_carTypeDetail_plus"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:src="@drawable/plus"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"/>
+
+                <ImageView
+                    android:padding="@dimen/_3sdp"
+                    android:id="@+id/iv_carTypeDetail_minus"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:src="@drawable/minus"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_carTypeDetail_ok"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:padding="@dimen/_2sdp"
+                android:background="@drawable/bg_ly_btn"
+                android:textSize="@dimen/_14sdp"
+                android:textAllCaps="false"
+                android:text="@string/text_btn_ok"/>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_carTypeDetail_cancle"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_toLeftOf="@+id/tv_carTypeDetail_ok"
+                android:textColor="@color/white"
+                android:padding="@dimen/_2sdp"
+                android:background="@drawable/bg_ly_btn"
+                android:textSize="@dimen/_14sdp"
+                android:textAllCaps="false"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:text="@string/text_cancel"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

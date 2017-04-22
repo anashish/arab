@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/my_profile"
+            android:title="@string/text_my_profile" />
+
+        <item
+            android:id="@+id/nav_my_booking"
+            android:icon="@drawable/car_ride_icon"
+            android:title="@string/text_my_booking" />
+
+        <item
+            android:id="@+id/nav_trip_monthlly"
+            android:icon="@drawable/monthlly_trip"
+            android:title="@string/text_trip_monthly" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification_green"
+            android:title="@string/text_notification" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting_icon"
+            android:title="@string/text_setting_menu" />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/aboutus"
+            android:title="@string/text_bout_us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_settings_power"
+            android:title="@string/text_logout" />
+
+    </group>
+</menu>

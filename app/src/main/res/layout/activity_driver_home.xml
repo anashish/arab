@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </FrameLayout>
+
+    <include
+        layout="@layout/layout_driver_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <android.support.design.widget.NavigationView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/driver_nav_view"
+        app:headerLayout="@layout/driver_header_home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="start"
+        app:itemTextColor="@color/colorPrimaryDark"
+        app:itemIconTint="@color/colorPrimaryDark"
+        app:menu="@menu/activity_home_driver"
+        />
+</android.support.v4.widget.DrawerLayout>
+

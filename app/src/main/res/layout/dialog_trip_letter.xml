@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_8sdp"
+    android:clickable="true"
+    android:gravity="center"
+    android:background="@color/transperant">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/bg_ly_tripletter_border">
+
+        <TextView
+            android:id="@+id/tvHeaderTripLetter"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:text="@string/text_trip_later"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/_16sdp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_ly_tripletter_heder"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/ly_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvHeaderTripLetter"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:layout_centerInParent="true"
+            >
+            <RelativeLayout
+                android:id="@+id/ly_date_picker"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:background="@drawable/bg_dialog_box"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                >
+                .
+                <TextView
+                    android:id="@+id/tv_date_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="YYYY/MM/DD"
+                    android:layout_toRightOf="@+id/iv_date_picker"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:layout_centerVertical="true"
+                    />
+                .
+                <ImageView
+                    android:id="@+id/iv_date_picker"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_calendar"
+                    android:padding="@dimen/_3sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_time_picker"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_dialog_box"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:gravity="center"
+                >
+                .
+                <TextView
+                    android:id="@+id/tv_time_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="00:00:00"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_toRightOf="@+id/iv_time_picker"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_centerVertical="true"
+
+                    />
+                .
+                <ImageView
+                    android:id="@+id/iv_time_picker"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_clock"
+                    android:padding="@dimen/_3sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ly_picker"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btn_submit_tripLetter"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_ly_green_btn"
+                android:text="@string/submit"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/_2sdp"
+                />
+
+
+            <Button
+                android:id="@+id/btn_cancel_tripLetter"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/bg_ly_green_btn"
+                android:text="@string/text_cancel"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

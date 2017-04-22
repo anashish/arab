@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_fl_transparent_dark"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_3sdp"
+        >
+
+        <LinearLayout
+            android:id="@+id/ly_promo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/_6sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Promo Code"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:src="@drawable/icon_percent"/>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/view_promo"
+            android:layout_width="@dimen/_2sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_toRightOf="@+id/ly_promo"
+            android:background="@drawable/line_image"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:gravity="center"/>
+
+
+        <LinearLayout
+            android:id="@+id/ly_ride"
+            android:layout_toRightOf="@+id/view_promo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_6sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Ride EstiMate"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:src="@drawable/icon__estimate"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_ride"
+            android:layout_width="@dimen/_2sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_toRightOf="@+id/ly_ride"
+            android:background="@drawable/line_image"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:gravity="center"/>
+
+
+        <LinearLayout
+            android:id="@+id/ly_rate"
+            android:layout_toRightOf="@+id/view_ride"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/_6sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Rate Card"/>
+
+            <ImageView
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_realcard"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

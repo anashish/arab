@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:focusableInTouchMode="true"
+    >
+    <RelativeLayout
+        android:id="@+id/lyBackward"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/backward_icon"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:padding="@dimen/_5sdp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/lyBackward"
+        android:id="@+id/driverProfileHeader"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivPassProfilePic"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:background="@drawable/person"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/tvPassFullName"
+            android:layout_below="@+id/ivPassProfilePic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:gravity="center"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:hint="@string/text_user_name"/>
+
+        <TextView
+            android:id="@+id/tvPassEmail"
+            android:layout_below="@+id/tvPassFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_14sdp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:hint="@string/text_user_email"/>
+
+        <TextView
+            android:id="@+id/tvPassContactNo"
+            android:layout_below="@+id/tvPassEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_14sdp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:hint="@string/text_monthly_contact"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/driverProfileHeader">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/bg_dialog_box"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etPassUpdateProfileUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/text_user_name"
+                    android:maxLines="1"
+                    android:editable="false"
+                    android:focusableInTouchMode="true"
+                    android:ems="16"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:maxLength="50"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:layout_margin="@dimen/_8sdp"
+                    />
+
+                <EditText
+                    android:id="@+id/etPassChangePass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
+                    android:gravity="center"
+                    android:hint="@string/text_changepass"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+                    android:ems="16"
+                    android:drawableEnd="@drawable/edit_icon"
+                    android:drawableRight="@drawable/edit_icon"
+                    android:maxLength="50"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:imeOptions="actionNext"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:focusable="false"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvPassEmergencyCantact"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:gravity="center"
+                android:hint="@string/text_add_contact"
+                android:maxLines="1"
+                android:maxLength="50"
+                android:textStyle="bold"
+                android:background="@color/colorAccent"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_16sdp"
+                android:drawableRight="@drawable/rightarrow"
+                android:layout_margin="@dimen/_8sdp"
+                />
+
+            <Button
+                android:id="@+id/btnUpdatePassProfile"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_btn_update"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:background="@drawable/bg_ly_green_btn"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

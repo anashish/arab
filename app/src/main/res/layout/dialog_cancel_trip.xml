@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_8sdp"
+    android:clickable="true"
+    android:gravity="center"
+    android:background="@color/transperant">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/bg_ly_tripletter_border">
+
+            <TextView
+                android:id="@+id/tvHeaderCancelRide"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:text="Enter reason for cancel this ride"
+                android:textStyle="normal"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_ly_tripletter_heder"
+                />
+
+            <RelativeLayout
+                android:id="@+id/ly_CancelRide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tvHeaderCancelRide"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp">
+                <EditText
+                    android:id="@+id/etDialogCancelRide"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:hint="Enter text upto 100 character"
+                    android:padding="@dimen/_5sdp"
+                    android:gravity="start"
+                    android:imeOptions="actionDone"
+                    android:maxLength="100"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:background="@drawable/bg_dialog_box"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/count"
+                android:text="0/100"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_below="@+id/ly_CancelRide"/>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_below="@+id/count"
+                >
+
+                <Button
+                    android:id="@+id/btnSendDialogCancelRide"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/bg_ly_green_btn"
+                    android:text="@string/btn_send"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:textAllCaps="false"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    />
+
+                <Button
+                    android:id="@+id/btnCancelDialogCancelRide"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/bg_ly_green_btn"
+                    android:text="@string/text_cancel"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

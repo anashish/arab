@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/driver_profile"
+            android:icon="@drawable/my_profile"
+            android:title="@string/text_my_profile" />
+        <item
+            android:id="@+id/driver_nav_vehicle_info"
+            android:icon="@drawable/car_icon"
+            android:title="@string/text_vehicle_info" />
+
+        <item
+            android:id="@+id/driver_my_booking"
+            android:icon="@drawable/car_ride_icon"
+            android:title="@string/text_my_booking" />
+        <item
+            android:id="@+id/driver_monthlly_booking"
+            android:icon="@drawable/monthlly_trip"
+            android:title="@string/text_trip_monthly" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/telephone_icon"
+            android:title="@string/text_call_support" />
+
+        <item
+            android:id="@+id/driver_nav_payment"
+            android:icon="@drawable/bank_account_icon"
+            android:title="@string/text_payment_info" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting_icon"
+            android:title="@string/text_setting_menu" />
+        <item
+            android:id="@+id/driver_nav_logout"
+            android:icon="@drawable/ic_settings_power"
+            android:title="@string/text_logout" />
+
+    </group>
+</menu>

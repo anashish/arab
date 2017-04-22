@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_8sdp"
+    android:clickable="true"
+    android:gravity="center"
+    android:background="@color/transperant">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/bg_ly_tripletter_border">
+
+        <TextView
+            android:id="@+id/tvHeaderCancelRide"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:text="Params"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_ly_tripletter_heder"
+            />
+
+        <RelativeLayout
+            android:id="@+id/lyParams"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvHeaderCancelRide"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp">
+            <TextView
+                android:id="@+id/tvDialogShowParam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:imeOptions="actionDone"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp"
+                android:background="@drawable/bg_dialog_box"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnSendDialogParam"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/bg_ly_green_btn"
+            android:text="Send"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/lyParams"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
