@@ -18,7 +18,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -65,6 +64,7 @@ public class VerifyPhoneActivity extends AppCompatActivity {
 
     private int userId;
     CustomDialog customDialog;
+    private String splitedcountryCode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -196,6 +196,7 @@ public class VerifyPhoneActivity extends AppCompatActivity {
                     String splitedCode[] = sCuntryCode.split(" ");
                     String firstCode = splitedCode[0];
                     String countryCode = splitedCode[1];
+                    splitedcountryCode = splitedCode[1];
                     tv_countryCode.setText(sCountryCode);
 
                     otpUrlParameter = countryCode+""+sPhoneNumber;
@@ -247,14 +248,14 @@ public class VerifyPhoneActivity extends AppCompatActivity {
                                 }
                             } else {
                                 if (RoleActivity.sRole.equals(Constant.DRIVER)) {
-                                    String pMobileNo = "91" + sPhoneNumber;
+                                    String pMobileNo = splitedcountryCode + sPhoneNumber;
                                     Intent intent = new Intent(VerifyPhoneActivity.this, DriverRegistrationActivity.class);
                                     intent.putExtra("dMobileNo", pMobileNo);
                                     startActivity(intent);
                                     overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
                                     finish();
                                 } else {
-                                    String dMobileNo = "91" + sPhoneNumber;
+                                    String dMobileNo = splitedcountryCode + sPhoneNumber;
                                     Intent intent = new Intent(VerifyPhoneActivity.this, PassengerRegistrationActivity.class);
                                     intent.putExtra("pMobileNo", dMobileNo);
                                     startActivity(intent);

@@ -230,6 +230,7 @@ public class DriverRegistrationActivity extends AppCompatActivity implements Cus
                     }
                 }, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
                 datePickerDialog.getDatePicker().setMaxDate(System.currentTimeMillis());
+                datePickerDialog.setCancelable(false);
                 datePickerDialog.show();
 
             }

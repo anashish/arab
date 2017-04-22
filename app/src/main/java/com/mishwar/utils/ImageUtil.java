@@ -14,7 +14,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-import java.util.TimeZone;
 
 /**
  * Created by dharmraj on 29/9/16.
@@ -218,7 +217,6 @@ public class ImageUtil {
     public static String timeFormatter(Long milisecond, String timeFormat) {
         Date date = new Date(milisecond);
         DateFormat formatter = new SimpleDateFormat(timeFormat, Locale.ENGLISH);
-        formatter.setTimeZone(TimeZone.getTimeZone("UTC"));
         return formatter.format(date);
     }
 }
