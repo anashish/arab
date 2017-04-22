@@ -310,7 +310,7 @@ public class DriverProfileActivity extends AppCompatActivity implements View.OnC
     /**
      * This method used to send vehicle info to manasah api
      */
-    private void sendVehicleRegistrationInfo_To_Manasah_Wasl_API() {
+   /* private void sendVehicleRegistrationInfo_To_Manasah_Wasl_API() {
 
         StringRequest sendInfo = new StringRequest(Request.Method.POST,  Constant.URL_DRIVER_VEHICLE_REG_INFO_MANASAH_WASL_API, new Response.Listener<String>() {
             @Override
@@ -340,7 +340,7 @@ public class DriverProfileActivity extends AppCompatActivity implements View.OnC
 
 
         VolleySingleton.getInstance(getBaseContext()).addToRequestQueue(sendInfo);
-    }
+    }*/
 
 
     /*-------------------------------------------------------------------------------------------------------------------*/
@@ -517,7 +517,6 @@ public class DriverProfileActivity extends AppCompatActivity implements View.OnC
                     message = responseData.getString(Constant.MESSAGE);
 
                     if(status.equals(Constant.ONE)){
-                        sendVehicleRegistrationInfo_To_Manasah_Wasl_API();
                         JSONObject usedetailobject = responseData.getJSONObject("result");
                         userId = usedetailobject.getInt(Constant.USERID);
                         sEmail = usedetailobject.getString(Constant.EMAIL);

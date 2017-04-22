@@ -385,7 +385,7 @@ public class DriverRegistrationActivity extends AppCompatActivity implements Cus
      * This API used to send driver info to manasah wasl api
      */
 
-    private void sendDriverRegistrationInfo_To_Manasah_Wasl_API() {
+   /* private void sendDriverRegistrationInfo_To_Manasah_Wasl_API() {
 
             StringRequest sendInfo = new StringRequest(Request.Method.POST,  Constant.URL_DRIVER_REG_INFO_MANASAH_WASL_API, new Response.Listener<String>() {
                 @Override
@@ -414,7 +414,7 @@ public class DriverRegistrationActivity extends AppCompatActivity implements Cus
             VolleySingleton.getInstance(getBaseContext()).addToRequestQueue(sendInfo);
 
 
-    }
+    }*/
 
     /*-------------------------------------------------------------------------------------------------------------------*/
 
@@ -655,7 +655,6 @@ public void onRequestPermissionsResult(int requestCode, @NonNull String[] permis
                         sessionManager.setDriverCaptionIdentityNumber(mCaptionIdentityNumber);
                         sessionManager.setDriverDateOfBirth(mDriverDateOfBirth);
 
-                        sendDriverRegistrationInfo_To_Manasah_Wasl_API();
                         Intent enterApp = new Intent(DriverRegistrationActivity.this,DriverHomeActivity.class);
                         //enterApp.putExtra("refereshMsg",refereshMsg);
                         enterApp.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

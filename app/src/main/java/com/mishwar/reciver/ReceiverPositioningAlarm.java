@@ -155,7 +155,6 @@ public class ReceiverPositioningAlarm extends BroadcastReceiver {
                 // UpdateDriverCurrentLatLngTask task = new UpdateDriverCurrentLatLngTask(location.getLatitude(),location.getLongitude());
                 // task.execute();
                 UpdateCurrentLatLngTask(location.getLatitude(),location.getLongitude());
-                sendLocationRegistration_To_Manasah_Wasl_API(location.getLatitude(),location.getLongitude());
 
             } else {
                 //  AppUtility.showAlertDialog_SingleButton(DriverHomeActivity.this, getString(R.string.network_not_available), "", "Ok");
@@ -488,36 +487,4 @@ public class ReceiverPositioningAlarm extends BroadcastReceiver {
     /****************************************************************************************************************************************/
 
 
-    /**
-     * this method used to send location update to manasah API
-     * @param latitude
-     * @param longitude
-     */
-    private static void sendLocationRegistration_To_Manasah_Wasl_API(final double latitude, double longitude) {
-
-        StringRequest sendInfo = new StringRequest(Request.Method.POST,  Constant.URL_LOCATION_UPDATE_MANASAH_WASL_API, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-
-            }
-        }) {
-            @Override
-            protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<>();
-                params.put("apiKey", Constant.MANASAH_WASL_API_KEY);
-                params.put("vehicleReferenceNumber", sessionManager.getVehicleNo());
-                params.put("currentLatitude", String.valueOf(latitude));
-                params.put("currentLongitude", String.valueOf(latitude));
-                params.put("hasCustomer", "1");
-                return params;
-            }
-        };
-        RequestQueue requestQueue = Volley.newRequestQueue(_context);
-        requestQueue.add(sendInfo);
-    }
 }

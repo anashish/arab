@@ -41,24 +41,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Constant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/helper/Constant.java">
+      <file leaf-file-name="GpsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/service/GpsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2085">
-              <caret line="139" column="29" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
+            <state relative-caret-position="227">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GpsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/service/GpsService.java">
+      <file leaf-file-name="MyFirebaseMessagingService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/service/MyFirebaseMessagingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="-5170">
+              <caret line="329" column="65" selection-start-line="329" selection-start-column="62" selection-end-line="329" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFirebaseInstanceIDService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/service/MyFirebaseInstanceIDService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,22 +74,122 @@
       <file leaf-file-name="ReceiverPositioningAlarm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/reciver/ReceiverPositioningAlarm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6630">
-              <caret line="474" column="48" selection-start-line="474" selection-start-column="48" selection-end-line="474" selection-end-column="48" />
+            <state relative-caret-position="170">
+              <caret line="156" column="88" selection-start-line="156" selection-start-column="88" selection-end-line="156" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverMyBookingsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverMyBookingsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-948">
+              <caret line="39" column="10" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverUpcomingMapActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverUpcomingMapActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="882" column="33" selection-start-line="882" selection-start-column="33" selection-end-line="882" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="docComment;field#client#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="e#6031#6103#0" expanded="false" />
+                <element signature="method#initializeViews#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onClick#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="class#20287:21190" expanded="false" />
+                <element signature="method#beforeTextChanged#0;class#20287:21190" expanded="false" />
+                <element signature="method#onTextChanged#0;class#20287:21190" expanded="false" />
+                <element signature="method#afterTextChanged#0;class#20287:21190" expanded="false" />
+                <element signature="method#checkLocationPermission#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#createGoogleApiClient#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onRequestPermissionsResult#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="e#29318#29356#0" expanded="false" />
+                <element signature="method#onConnected#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onConnectionSuspended#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onConnectionFailed#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onLocationChanged#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onCameraChange#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onMapReady#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#setPassengerMarker#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#setCurrent#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#setDestination#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#tripInfoDialog#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="e#36340#36450#0" expanded="false" />
+                <element signature="method#executeCall#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="e#40574#40599#0" expanded="false" />
+                <element signature="docComment;method#GetStartAndEndRideTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="class#41623:49478" expanded="false" />
+                <element signature="method#getParams#0;class#41623:49478" expanded="false" />
+                <element signature="method#getHeaders#0;class#41623:49478" expanded="false" />
+                <element signature="docComment;method#GetCancelRideTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#GetCancelRideTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="class#51959:55911" expanded="false" />
+                <element signature="method#getParams#0;class#51959:55911" expanded="false" />
+                <element signature="method#getHeaders#0;class#51959:55911" expanded="false" />
+                <element signature="docComment;method#getIndexApiAction#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#getIndexApiAction#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="e#56353#56399#0" expanded="false" />
+                <element signature="method#onStart#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="e#56823#56895#0" expanded="false" />
+                <element signature="method#onStop#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="e#57144#57216#0" expanded="false" />
+                <element signature="docComment;class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#doInBackground#0;class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onPostExecute#0;class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#downloadUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="class#ParserTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#doInBackground#0;class#ParserTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onPostExecute#0;class#ParserTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#getDirectionsUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+                <element signature="method#onBackPressed#0;class#DriverUpcomingMapActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DriverHomeActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverHomeActivity.java">
+      <file leaf-file-name="DriverRegistrationActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverRegistrationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="562" column="50" selection-start-line="562" selection-start-column="50" selection-end-line="562" selection-end-column="50" />
+            <state relative-caret-position="326">
+              <caret line="734" column="28" selection-start-line="734" selection-start-column="28" selection-end-line="734" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddAccountActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/AddAccountActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2924">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VehicleInfoActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/VehicleInfoActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="377" column="17" selection-start-line="377" selection-start-column="16" selection-end-line="377" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverProfileActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverProfileActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#onBackPressed#0;class#DriverProfileActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2282,13 +2390,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/vollyemultipart/VolleySingleton.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_driver_profile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverUpcomingMapActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverRegistrationActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverProfileActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/reciver/ReceiverPositioningAlarm.java" />
         <option value="$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.2.0/appcompat-v7-24.2.0-sources.jar!/android/support/v7/widget/ToolbarWidgetWrapper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverHomeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/service/GpsService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverRegistrationActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverProfileActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/reciver/ReceiverPositioningAlarm.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverUpcomingMapActivity.java" />
       </list>
     </option>
   </component>
@@ -2377,6 +2485,50 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mishwar" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mishwar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mishwar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mishwar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mishwar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reciver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2739,7 +2891,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.39282867" order="12" side_tool="false" content_ui="tabs" />
@@ -2750,7 +2902,7 @@
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5564516" sideWeight="0.77211154" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61612904" sideWeight="0.20398407" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6032258" sideWeight="0.69083667" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43203884" sideWeight="0.75139445" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.011326861" sideWeight="0.75139445" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.030645162" sideWeight="0.5091633" order="11" side_tool="true" content_ui="tabs" />
@@ -2860,42 +3012,12 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverProfileActivity.java</url>
-          <line>318</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/model/AllTrips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_fregments/DriverCancelBookingsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3249">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_payment_info.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_request_driver.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3011,6 +3133,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3065,6 +3188,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3072,6 +3196,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="217" column="10" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3142,6 +3267,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3945">
           <caret line="263" column="10" selection-start-line="263" selection-start-column="10" selection-end-line="263" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3160,6 +3286,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3167,6 +3294,7 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="4875">
           <caret line="325" column="38" selection-start-line="325" selection-start-column="38" selection-end-line="325" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3178,13 +3306,6 @@
         <state relative-caret-position="90">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverMyBookingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -3213,159 +3334,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverUpcomingMapActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1012" column="69" selection-start-line="1012" selection-start-column="15" selection-end-line="1012" selection-end-column="69" />
-          <folding>
-            <element signature="docComment;field#client#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="e#6072#6144#0" expanded="false" />
-            <element signature="method#initializeViews#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onClick#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="class#20328:21231" expanded="false" />
-            <element signature="method#beforeTextChanged#0;class#20328:21231" expanded="false" />
-            <element signature="method#onTextChanged#0;class#20328:21231" expanded="false" />
-            <element signature="method#afterTextChanged#0;class#20328:21231" expanded="false" />
-            <element signature="method#checkLocationPermission#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#createGoogleApiClient#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onRequestPermissionsResult#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="e#29359#29397#0" expanded="false" />
-            <element signature="method#onConnected#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onConnectionSuspended#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onConnectionFailed#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onLocationChanged#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onCameraChange#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onMapReady#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#setPassengerMarker#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#setCurrent#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#setDestination#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#tripInfoDialog#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="e#36381#36491#0" expanded="false" />
-            <element signature="method#executeCall#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="e#40615#40640#0" expanded="false" />
-            <element signature="docComment;method#GetStartAndEndRideTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="class#41664:49602" expanded="false" />
-            <element signature="method#getParams#0;class#41664:49602" expanded="false" />
-            <element signature="method#getHeaders#0;class#41664:49602" expanded="false" />
-            <element signature="docComment;method#GetCancelRideTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#GetCancelRideTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="class#52079:56031" expanded="false" />
-            <element signature="method#getParams#0;class#52079:56031" expanded="false" />
-            <element signature="method#getHeaders#0;class#52079:56031" expanded="false" />
-            <element signature="docComment;method#getIndexApiAction#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#getIndexApiAction#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="e#56473#56519#0" expanded="false" />
-            <element signature="method#onStart#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="e#56943#57015#0" expanded="false" />
-            <element signature="method#onStop#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="e#57264#57336#0" expanded="false" />
-            <element signature="docComment;class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#downloadUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="class#ParserTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#ParserTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#ParserTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#getDirectionsUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#DriverUpcomingMapActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/VehicleInfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/commun_ui/VerifyPhoneActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="486" column="0" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverProfileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="621" column="56" selection-start-line="621" selection-start-column="56" selection-end-line="621" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6070#6111#0" expanded="false" />
-            <element signature="e#11049#11090#0" expanded="false" />
-            <element signature="e#13243#13284#0" expanded="false" />
-            <element signature="e#17281#17316#0" expanded="false" />
-            <element signature="e#17318#17356#0" expanded="false" />
-            <element signature="e#17358#17389#0" expanded="false" />
-            <element signature="e#17504#17538#0" expanded="false" />
-            <element signature="e#17571#19862#0" expanded="false" />
-            <element signature="e#17740#17775#0" expanded="false" />
-            <element signature="e#18763#18801#0" expanded="false" />
-            <element signature="e#19747#19778#0" expanded="false" />
-            <element signature="e#19861#19862#0" expanded="false" />
-            <element signature="e#22216#22249#0" expanded="false" />
-            <element signature="e#23582#23615#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverRegistrationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1864">
-          <caret line="739" column="43" selection-start-line="739" selection-start-column="32" selection-end-line="739" selection-end-column="43" />
-          <folding>
-            <element signature="e#3551#3569#0" expanded="false" />
-            <element signature="e#4578#4619#0" expanded="false" />
-            <element signature="e#5272#5498#0" expanded="false" />
-            <element signature="e#5497#5498#0" expanded="false" />
-            <element signature="e#5618#5812#0" expanded="false" />
-            <element signature="e#5811#5812#0" expanded="false" />
-            <element signature="e#5921#6114#0" expanded="false" />
-            <element signature="e#6113#6114#0" expanded="false" />
-            <element signature="e#6245#6437#0" expanded="false" />
-            <element signature="e#6436#6437#0" expanded="false" />
-            <element signature="e#6552#7260#0" expanded="false" />
-            <element signature="e#7259#7260#0" expanded="false" />
-            <element signature="e#8471#8928#0" expanded="false" />
-            <element signature="e#8927#8928#0" expanded="false" />
-            <element signature="e#8979#9969#0" expanded="false" />
-            <element signature="e#9239#9716#0" expanded="false" />
-            <element signature="e#9715#9716#0" expanded="false" />
-            <element signature="e#9968#9969#0" expanded="false" />
-            <element signature="e#10171#10179#0" expanded="false" />
-            <element signature="e#10969#10977#0" expanded="false" />
-            <element signature="e#12166#17113#0" expanded="false" />
-            <element signature="e#13620#13661#0" expanded="false" />
-            <element signature="e#13803#13844#0" expanded="false" />
-            <element signature="e#13980#14023#0" expanded="false" />
-            <element signature="e#14207#14253#0" expanded="false" />
-            <element signature="e#14397#14443#0" expanded="false" />
-            <element signature="e#15583#15629#0" expanded="false" />
-            <element signature="e#15821#15861#0" expanded="false" />
-            <element signature="e#16066#16093#0" expanded="false" />
-            <element signature="e#16283#16331#0" expanded="false" />
-            <element signature="e#16985#17026#0" expanded="false" />
-            <element signature="e#17112#17113#0" expanded="false" />
-            <element signature="e#18759#20987#0" expanded="false" />
-            <element signature="e#20986#20987#0" expanded="false" />
-            <element signature="e#24121#24565#0" expanded="false" />
-            <element signature="e#24564#24565#0" expanded="false" />
-            <element signature="e#24643#24837#0" expanded="false" />
-            <element signature="e#24836#24837#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/reciver/ReceiverPositioningAlarm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6630">
-          <caret line="474" column="48" selection-start-line="474" selection-start-column="48" selection-end-line="474" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3384,22 +3357,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/service/GpsService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverHomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="110">
+          <caret line="541" column="61" selection-start-line="541" selection-start-column="61" selection-end-line="541" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverHomeActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverRegistrationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="562" column="50" selection-start-line="562" selection-start-column="50" selection-end-line="562" selection-end-column="50" />
+        <state relative-caret-position="326">
+          <caret line="734" column="28" selection-start-line="734" selection-start-column="28" selection-end-line="734" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/AddAccountActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2924">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/VehicleInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="377" column="17" selection-start-line="377" selection-start-column="16" selection-end-line="377" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#onBackPressed#0;class#DriverProfileActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/service/MyFirebaseMessagingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5170">
+          <caret line="329" column="65" selection-start-line="329" selection-start-column="62" selection-end-line="329" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/service/MyFirebaseInstanceIDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/service/GpsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/reciver/ReceiverPositioningAlarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="156" column="88" selection-start-line="156" selection-start-column="88" selection-end-line="156" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverMyBookingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-948">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mishwar/driver_ui/DriverUpcomingMapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="882" column="33" selection-start-line="882" selection-start-column="33" selection-end-line="882" selection-end-column="33" />
+          <folding>
+            <element signature="docComment;field#client#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="e#6031#6103#0" expanded="false" />
+            <element signature="method#initializeViews#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="class#20287:21190" expanded="false" />
+            <element signature="method#beforeTextChanged#0;class#20287:21190" expanded="false" />
+            <element signature="method#onTextChanged#0;class#20287:21190" expanded="false" />
+            <element signature="method#afterTextChanged#0;class#20287:21190" expanded="false" />
+            <element signature="method#checkLocationPermission#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#createGoogleApiClient#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onRequestPermissionsResult#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="e#29318#29356#0" expanded="false" />
+            <element signature="method#onConnected#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onConnectionSuspended#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onConnectionFailed#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onLocationChanged#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onCameraChange#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onMapReady#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#setPassengerMarker#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#setCurrent#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#setDestination#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#tripInfoDialog#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="e#36340#36450#0" expanded="false" />
+            <element signature="method#executeCall#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="e#40574#40599#0" expanded="false" />
+            <element signature="docComment;method#GetStartAndEndRideTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="class#41623:49478" expanded="false" />
+            <element signature="method#getParams#0;class#41623:49478" expanded="false" />
+            <element signature="method#getHeaders#0;class#41623:49478" expanded="false" />
+            <element signature="docComment;method#GetCancelRideTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#GetCancelRideTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="class#51959:55911" expanded="false" />
+            <element signature="method#getParams#0;class#51959:55911" expanded="false" />
+            <element signature="method#getHeaders#0;class#51959:55911" expanded="false" />
+            <element signature="docComment;method#getIndexApiAction#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#getIndexApiAction#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="e#56353#56399#0" expanded="false" />
+            <element signature="method#onStart#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="e#56823#56895#0" expanded="false" />
+            <element signature="method#onStop#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="e#57144#57216#0" expanded="false" />
+            <element signature="docComment;class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#FetchUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#downloadUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="class#ParserTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#ParserTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#ParserTask#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#getDirectionsUrl#0;class#DriverUpcomingMapActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#DriverUpcomingMapActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>

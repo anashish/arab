@@ -88,8 +88,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import vollyemultipart.VolleySingleton;
-
 public class DriverUpcomingMapActivity extends AppCompatActivity implements View.OnClickListener, GoogleMap.OnCameraChangeListener, OnMapReadyCallback,
         GoogleApiClient.OnConnectionFailedListener, GoogleApiClient.ConnectionCallbacks, LocationListener {
     public static final String TAG = "Upcoming Booking";
@@ -888,7 +886,7 @@ public class DriverUpcomingMapActivity extends AppCompatActivity implements View
                                     layout_footer2.setVisibility(View.VISIBLE);
 
                                 }else if(actionStatus.equals("4") || message.equalsIgnoreCase("Your ride has been ended")){
-                                    sendTripRegistrationInfo_To_Manasah_Wasl_API();
+
                                     //    getVisibleFragment();
                                     btnDriverUpcomingStarttrip.setVisibility(View.GONE);
                                     btnDriverUpcomingCanceltrip.setVisibility(View.GONE);
@@ -999,7 +997,7 @@ public class DriverUpcomingMapActivity extends AppCompatActivity implements View
     /**
      * This method used to send location update to manasah api
      */
-    private void sendTripRegistrationInfo_To_Manasah_Wasl_API() {
+  /*  private void sendTripRegistrationInfo_To_Manasah_Wasl_API() {
 
         StringRequest sendInfo = new StringRequest(Request.Method.POST,  Constant.URL_TRIP_REG_INFO_MANASAH_WASL_API, new Response.Listener<String>() {
             @Override
@@ -1036,7 +1034,7 @@ public class DriverUpcomingMapActivity extends AppCompatActivity implements View
 
         VolleySingleton.getInstance(getBaseContext()).addToRequestQueue(sendInfo);
 
-    }
+    }*/
 
     /****************************************************************************************************************************************/
     public void GetCancelRideTask() {
