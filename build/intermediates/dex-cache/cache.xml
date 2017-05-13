@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/e58c95f303cffe6fc32aef5707cdd9abd8175d57/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f9de0c6adfc41d3c8e2c5a63853ca47792aea591/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/1cc532a2e5bb98e4a0b36724226b9a5cd00bff6f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e81a90331089d2f9018e493b0fdd6bab92fae40c">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_47f450e752678d9e00bdb0cb4e0dba6d034cdd78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/d0ef9cf7ebb1397c744be898d35b9d81fbd4a6ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0be83e9be8203edf36ba37ddc2968317b5d2b6fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/5dfcba1fe18ff3109229344cfc38540981ba22da/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba2f029ff37297295d2d197ac6e957b361bfccaf">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_65dc749685f30c647e159b945f6be0158a4c73be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/977082596c2869e6979fee3cb93beedad5d6c00b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_73de577a1d54314a62597c8e1ad60f5d1ef73621/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/30e4ad4d7cebf2e832f145c895f9684592bda84b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64e8304700a19c510e4c048b605e4be12c35dfab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/97eba225e48d43ac7954fa924de1547eb3bda4eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d8a9fc1f627821fcc15fe819656d486193fb94d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/a427e1052b6588f6330893edc657a1440fdd0b8e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_90460fe705e5b4cf768a476d97a065b3e692a143/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/bb869d2ce7eba56534942fe8bf735364a5bb54f8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72d8905ae32c2758f3ca503db54c2741e007b3eb">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ed421b0da7bfe99d287911a98d56a924a06058f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/8eb6297ebc3a80b8a4f615d5f10ba4746d901353/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a30ec49de05501f8b89b690c68ddfc4497a09f8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/05bf49ba976b10ed6926ce6d3c732a96b4aebdb6/output/jars/libs/httpmime-4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de55ba564f153d1dae5a64aa6f1df8ac566a36f">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpmime-4.3_9e78f7e4bc4ab457fbc78191646c82240314a8cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/f2d503163b1a941204d6d83c0981790a501bca52/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7de4e9c774aa3924c5633377c652913fa7de49e0">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_51ad1188c2b9090cd0e468e999977ae8c5d2db9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/8e456c47b74d67ed4c923446ed7ee5ed864c699b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42a3ae86dd3ae2876d3e95c2e6e104ae57a50a65">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_06c9699b4f7b0fd753afe01da529730bef816f23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/05bf49ba976b10ed6926ce6d3c732a96b4aebdb6/output/jars/libs/httpclient-4.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b2482b2514fdc232a7262098af6fd8b5ea598b7">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.2.5_0f6d6c8dcd9510cd408d14c860c688eacc3dc78a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_7d58e043061c101e6afb448cd7d70775cd2f90da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/56ebc4a5a9c15757ec0155cb56b9dceca558fa92/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_002b21ac528324e4b6817ecd36da8b895921a65f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/ad3cb3d9b1acf9dbd983a28f62626440e2db5167/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b3d76dd99ee0be5960ae88728523027385b0e03c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/3a55ed7bef85bbec5b84f421356891cb6f860ff3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7357a05eea2a049c33488c7e8c6f887b3483d4b8">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_92413e5f8bf3b5f71c39f54c86ae52e19a6d8a5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/05bf49ba976b10ed6926ce6d3c732a96b4aebdb6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b13245b6fb88c3e590a68446684b84a758fe4200">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6ba461c8f73cc81317ee0f8f9a05192c3c2ead22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/ff84340bb32582df0f6613e09d952037a9f09fb3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69499b937aa46c38a4a1dc5182f135e0478bc209/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/0e902206a738b28b9e2c6408745426db7fcad6e8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9038322d5c1b7a29cf704b2024e890411c30ee0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/6d058349f8d484f8fce0cedb18d9163ce9e0020f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a93aa431de60b775c91158433f3c687f1d32cb9c">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_17c05f56de51e50e46ffbe3b70e500e4fced00d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/b98b0c92df4b50c434e9962841a76216237626b3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0bc7c814ca3d535157c62b949340db05ff71bdd7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/e672e9204f1526ad104c7dff460254cc23d89d7a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0a1ba7e534730f819f9834b3b748b67387cca03b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_a08da136b2a19d3f32bd254096d8838d4020f8dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/102d31c7da0444287988be4baf6cd81bdc94f73a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f626b76b4868070b4a1c1902633acdc304678ea0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_4f3273b7dca13d3988026cddf3967a50b0dac2a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/1ed14bbabdd57566f7ec6ed627260c256ce212f8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_01727d30f138eb44ef942d2761fef458b201a3a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/17c2013a8692ffc8e1af06af855a295a8150104d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d39f676be8400123523882d189a1d84040d34339">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a395c80e96643f26667c7f8de8149f85b158b9eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/3abe4e539cb1a6ef1c90a50c1275a1c1542bc669/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c5b714348c7eea9df9708d919755ddc53c25e58d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/aa297b33758b2087247c0dda8bc1913bf10b005d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_45607b12f7aa8d602763b7db220dbcae713547ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/ad3cb3d9b1acf9dbd983a28f62626440e2db5167/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_e0bcc3f8069400a03ee86f51ff8038b5250763aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/aa297b33758b2087247c0dda8bc1913bf10b005d/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_1db47f0d79db438474d9ea1d688e4779e2288799/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/0fc39267bf4ffc6bac32edb22d44f3be58be3a1a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fb2605049d7a98efd12a6f0cb0631b2c4d08e5e7">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6094f061ac26b8650c808c84fdb0d0c4c9bf20ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/a89160246b938399a41a30f6e2403ea0371771e0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_99bd8734c68488822ba6700be5be8788809f7be0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/1a86f3a329ed4592d809fbe9ce69ad0e88d67026/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2f9d12b9c76bb12d0ec0c9c95dc58324370a4cad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/9aef4fa6dde420f925e35f236ff7e8132d3eab0f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f24a52579bfb4733f0b35c595cabfa98b3aa1463/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/ca8facf3b3365ab639249b82a1c6804e6bea4b65/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_70523e0557f465b7bd35aeae3867cbdbe2a1b897/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/57039f0b4d969347566e7bdb8e3d2d6e87b42973/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4757bdc059ffcb3590e6f057882a70113ee67c63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/c0443a8f4a2c866a3894100dc869109a2109317e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3270d392adef5decc7bace1a3c2e749bec7bf19e">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_50c90b716693697e0a7fab48206610507be6493f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/4e84568e6c1f7fd47ed6877954706b2142295fc7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b761742eefa76b2433eab4a1ff407062be332269/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_630429fbf5660adb65a70259dc1ea952554dc155/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/1188d4fbe3ecf424e12fa23d39a38ecee8b20617/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea5537e2a88ce0497d3e2272b1cf93f2e0c77b0d">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_37812ac0fb9ba7f5ce270d9b1d3dd7d5eac06e0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/05bf49ba976b10ed6926ce6d3c732a96b4aebdb6/output/jars/libs/httpcore-4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa808bfc7ba23c0638d7b884c67c56342e1eebde">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpcore-4.3_fa1e68a0ce344513acc1f0369361e1c034ebdefa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/5d99c85fdbec16d8b0faa55b42acb2851adc3779/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_082313d9bb5bbff2041b02c9209ecd02fb1bcf20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.2/ccde00f7ccc77af5a6d5752e2cb21f6d8998289f/okhttp-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.2_f2fe09c64d83e7e49a7041a7c2ed06b6337ef07b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.gradle/caches/modules-2/files-2.1/com.google.protobuf.nano/protobuf-javanano/3.0.0-alpha-7/52587934797e3433992a9d69178a1471e4a8f85d/protobuf-javanano-3.0.0-alpha-7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="52587934797e3433992a9d69178a1471e4a8f85d">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/protobuf-javanano-3.0.0-alpha-7_e95d0c3de17512fb98a0e9f1c1e7e985b60680c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/f43f915df92d6563df386c95697146672ef87009/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d51ddeef2d293fb47580d6949d089c9557768d1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/e58c95f303cffe6fc32aef5707cdd9abd8175d57/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_cf48c6e10593c9a075712f8dc98c10e1e9444abb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/0498b81a5fa121e79a5b4310d752e9c0baaa1d88/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_52b5f4c34bbd1db1ea1deaf35cde86fc33a4582b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/778ae8700f0d3e343a2cac3ffcce664298811577/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a32b19ba43c5ea936f7e7a0473ea32c9d13ffadb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/56ebc4a5a9c15757ec0155cb56b9dceca558fa92/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_caa7ac97dfbf54faf082063d1cdb9c7a12872cf3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/05bf49ba976b10ed6926ce6d3c732a96b4aebdb6/output/jars/libs/fluent-hc-4.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38f0790239a75152b5ceb0b705d9ff74e3583cb4">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/fluent-hc-4.3.1_befc10f49d5bba1258d583e252e7d67cf0bccbbb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_2ddee0a634896f8baeb1ab7f420666362569feaf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ttnd/.android/build-cache/f43f915df92d6563df386c95697146672ef87009/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/home/ttnd/Music/private/Mishwar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_0d15e808143d809eefe224369af4ca0101229143/classes.dex" />
+    </item>
+
+</items>

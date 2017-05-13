@@ -475,7 +475,10 @@ public class VerifyPhoneActivity extends AppCompatActivity {
                             Log.d(TAG,"response ="+response);
 
                             if (status.equalsIgnoreCase("1")) {
-                                sOtp = message;
+                              //  sOtp = message;
+
+                                sOtp = "456789";
+
                                 // JSONObject usedetailobject = jsonObj.getJSONObject(Constant.USERDETAILS);
                                 // sAuthToken = usedetailobject.getString(Constant.AUTHTOKEN);
                                 AppUtility.showToast(VerifyPhoneActivity.this, getString(R.string.otp_sent), Toast.LENGTH_SHORT);
